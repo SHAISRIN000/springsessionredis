@@ -1,0 +1,24 @@
+BODY
+{
+    FONT-FAMILY: arial
+}
+div.message
+{
+    //PADDING-LEFT: 7px;
+    //BACKGROUND: transparent url(../STG/errorarrow.gif) no-repeat scroll left center;
+    
+}
+div.error
+{
+    //BORDER-BOTTOM: #924949 2px solid;
+    //BORDER-LEFT: #924949 2px;
+    //PADDING-BOTTOM: 1px;
+    //BACKGROUND-COLOR: #f3e6e6;
+    //PADDING-LEFT: 5px;
+    //PADDING-RIGHT: 5px;
+    FONT-FAMILY: arial;
+    FONT-SIZE: 10pt;
+    //BORDER-TOP: #924949 2px solid;
+    //BORDER-RIGHT: #924949 2px solid;
+    //PADDING-TOP: 1px
+}

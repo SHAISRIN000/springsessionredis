@@ -1,0 +1,25 @@
+/* override ddcl styles */
+#ddcl-componentCompanyMap{
+	width: 160px !important;
+}
+
+#ddcl-addEditComponentRoleConfig{
+	width: 160px !important;
+}
+
+.ui-dropdownchecklist-headertext {/* to resolve issue where selected text is cutting into arrow icon */
+   line-height: 14px !important;
+    margin-left: 2px;
+    width: 147px; 
+}
+
+input.aiSecurityField{
+	width:160x;
+	height: 20px; 
+	line-height: 20px;
+	
+}
+
+select.aiSecurityField{
+	width: 160px !important;
+}

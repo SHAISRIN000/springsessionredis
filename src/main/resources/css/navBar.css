@@ -1,0 +1,555 @@
+@charset "utf-8";
+/* CSS file for Top Nav Utilities Bar */
+
+#topBar{
+    height: 30px;
+    width: 100%;
+    background-color: #333;
+    vertical-align: middle;
+}
+
+#topBar a {
+    font-size: 12px !important;
+    font-weight: bold;
+    color: #fff;
+}
+
+#navBar{
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+}
+
+/* Quick Links */
+.quickLinksArrow,
+.agencyInfoArrow,
+.agencyInfoArrowTemp,
+.hiAgentArrow{
+    width: 0; 
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #b9e259;
+    display: inline-block; 
+    *display: inline;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+#quickLinksDiv{
+    width: 85px;
+    display: inline-block;
+    *display: inline;
+    margin-left: 70px;
+    margin-top: 7px;
+    margin-right: 15px;
+}
+
+/* Signed in as agent */
+ul#agencyInfo,
+ul#navLinks {
+    margin-top: 4px;
+/*Causes problems with long username's*/
+    /* margin-right: 27px; */
+}
+
+ul#agencyInfo{
+    float: left;
+    margin-left: 0px;
+    font-weight: normal;
+    max-width: 600px;
+}
+
+li#agentInfo span#agencyProfile{
+    color: #b9e259;
+}
+
+li#agentInfo{
+    color: #fff;
+    /* added for hover style and limit length */
+    width: 420px;
+	display:inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.agencyInfoArrow{
+    margin-top: 7px;
+}
+
+
+/* Contact Us/Help/Logout */
+ul#navLinks {
+    margin-top: 4px;
+    float: right;
+    min-width: 215px;
+}
+
+li#hiAgent,
+li#contactUs,
+li#logOut{
+    float: left;
+    display: inline-block;
+    *display: inline;
+}
+
+li#hiAgent{
+	min-width: 58px;
+	margin-left: 4px;
+	margin-right: 15px;
+}
+
+li#logOut{
+   width: 54px;
+}
+
+li#contactUs{
+	width: 80px;
+	margin-right: 15px;
+}
+
+ul#navLinks li a{
+    color: #fff;
+}
+ 
+ul#navLinks li a:hover{
+    text-decoration: underline;
+}
+ 
+
+/* Contact Us Info */
+.contactInfo{
+    width: 305px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 10px;
+}
+
+.contactInfo label {
+    display: block;
+    float: left;
+    width: 130px;
+    line-height: 13px;
+    font-weight: normal;
+}
+
+.contactInfo span {
+    display: inline-block;
+    width: 120px;
+    /*margin-left: 75px;*/
+}
+
+.contactInfo span:after {
+    display: block;
+    clear: left;
+}
+
+.contactHeader{
+    width: 305px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.contactHeaderLabel{
+    font-size: 14px;
+    font-weight: bold !important;
+}
+
+.contactLabel{
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: normal;
+    margin-right: 13px;
+}
+
+.contactInfo{
+    line-height: 15px;
+    font-size: 12px !important;
+    font-weight: bold;
+}
+
+.contactHR{
+    border-top: 2px solid #b9e259;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 305px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+table#contactNumbers{
+	width: 305px;
+}
+
+table#contactNumbers td{
+	text-align: left;
+	padding: 5px 2px;
+	vertical-align: middle;
+}
+
+/* Menus */
+ul.menuItems{
+	float: left;
+    list-style: none;
+    text-align: left;
+    margin: 0; 
+    color: #333;
+    text-decoration: none; 
+    width: 100%;
+    min-width: 216px;
+    padding: 5px 0px 10px 0px;
+}
+
+li.menuItemDisabled,
+li.menuItem{
+	padding: 6px 23px 6px 15px;
+	font-size: 12px;
+	line-height: 16px; 
+	word-wrap: break-word;
+	color: #333;
+}
+
+li.menuItem > a{
+    color: #333;
+}
+
+li.menuItem:hover{
+    /*background-color: #007ac9;  
+    cursor: pointer;*/ 
+}
+
+li.menuItem:hover > a{
+    /*color: #fff;
+    text-decoration: none;*/
+}
+
+
+/* Hi User Menu */
+ul#menuItems{
+	margin-top: 5px;
+}
+
+/* Agency Profile Menu */
+ul#profileList{
+}
+
+ul#profileList > li.menuItems{
+	display: inline-block;
+	*display: inline;
+}
+
+li.branchName{ 
+	padding: 6px 23px 6px 15px;
+    font-size: 12px;
+    line-height: 16px; 
+    word-wrap: break-word;
+    font-weight: bold;
+}
+
+li.agencyName{   
+    padding-left: 20px;
+}
+
+li.menuSelected{
+	background-color: #007ac9;  
+}
+
+li.menuSelected, 
+li.menuSelected > a{
+	cursor: default !important;
+}
+
+li.menuSelected > a{
+	color: #333;
+}
+
+li.menuSelected > a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Quick Links */
+li.menuItem > div.footerLink > a.expandLink,
+li.menuItem > div.footerLink > a.newQuote{
+    color: #333;
+}
+
+li.menuItem:hover > div.footerLink > a.expandLink,
+li.menuItem:hover > div.footerLink > a.newQuote{
+    color: #333;
+    text-decoration: none;
+}
+
+.linkInput{
+	text-indent: 5px;
+    text-align: middle;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    *overflow: visible;
+    margin-top: 6px;
+    background-image: -moz-linear-gradient(top, #ebebeb, #ffffff) !important;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ebebeb), to(#ffffff)) !important;
+    background-image: -webkit-linear-gradient(top, #ebebeb, #ffffff) !important;
+    background-image: -o-linear-gradient(top, #ebebeb, #ffffff) !important;
+    background-image: linear-gradient(to bottom, #ebebeb, #ffffff) !important;
+    background-repeat: repeat-x !important;
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ebebeb', endColorstr='#ffffff') !important;
+   -webkit-border-radius: 0px !important;
+     -moz-border-radius: 0px !important;
+          border-radius: 0px !important;
+}
+
+.linkDate{
+    text-indent: 5px;
+    text-align: middle;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    *overflow: visible;
+    margin-top: 6px;
+    background-image: -moz-linear-gradient(top, #ebebeb, #ffffff) !important;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ebebeb), to(#ffffff)) !important;
+    background-image: -webkit-linear-gradient(top, #ebebeb, #ffffff) !important;
+    background-image: -o-linear-gradient(top, #ebebeb, #ffffff) !important;
+    background-image: linear-gradient(to bottom, #ebebeb, #ffffff) !important;
+    background-repeat: repeat-x !important;
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ebebeb', endColorstr='#ffffff') !important;
+   -webkit-border-radius: 0px !important;
+     -moz-border-radius: 0px !important;
+          border-radius: 0px !important;
+}
+
+button.linkButton {
+    height: 25px;
+    margin-top: 11px;
+}
+
+/* Quick Links fields */
+li.menuItem > div.expandLink_Fields > div.outerDiv > div.control-group > div.controls > div.input-append > input.linkInput,
+li.menuItem > div.expandLink_Fields > div.outerDiv > div.control-group > div.controls > form > div.input-append > input.linkInput,
+li.menuItem > div.expandLink_Fields > form > div.outerDiv > input.linkInput {
+    font-size: 12px;
+    width: 198px;
+    min-width: 198px;
+    max-width: 198px;
+    height: 23px;
+    min-height: 23px;
+    max-height: 23px;
+    line-height: 23px;
+}
+
+li.menuItem > div.expandLink_Fields > div.outerDiv > div.control-group > div.controls > div.input-append > input.linkDate,
+li.menuItem > div.expandLink_Fields > div.outerDiv > div.control-group > div.controls > form > div.input-append > input.linkDate,
+li.menuItem > div.expandLink_Fields > form > div.outerDiv > input.linkDate {
+    font-size: 12px;
+    width: 178px;
+    min-width: 178px;
+    max-width: 178px;
+    height: 23px;
+    min-height: 23px;
+    max-height: 23px;
+    line-height: 23px;
+}
+
+li.menuItem > div.expandLink_Fields > form > div.outerDiv > .linksSelect{
+    font-size: 12px;
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+li.menuItem > div.expandLink_Fields > form > div.outerDiv > button.linkButton{
+	 width:203px;
+}
+
+/* Footer fields */
+div.footerLinks > div.expandLink_Fields > div.outerDiv > div.control-group > div.controls > form > div.input-append > input.linkInput,
+div.footerLinks > div.expandLink_Fields > form > div.outerDiv > input.linkInput {
+    font-size: 10px;
+    width: 148px;
+    min-width: 148px;
+    max-width: 148px;
+    border: 0px;
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+    line-height: 25px;
+   
+}
+
+div.footerLinks > div.expandLink_Fields > div.outerDiv > div.control-group > div.controls > form > div.input-append > input.linkDate,
+div.footerLinks > div.expandLink_Fields > form > div.outerDiv > input.linkDate {
+    font-size: 10px;
+    width: 141px;
+    min-width: 141px;
+    max-width: 141px;
+    border: 0px;
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+    line-height: 25px; 
+}
+
+div.footerLinks > div.expandLink_Fields > form > div.outerDiv > button.linkButton{
+     width: 165px;
+}
+
+div.footerLink > a {
+    border: none !important;
+    outline: none !important;
+}
+
+#dropdownPartners{
+	font-size: 10px !important;
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+div.linkSection{
+	margin-top: 13px;
+}
+
+.iconSearchQuickLinks{
+	margin-top: 4.0px !important;
+	cursor: pointer;
+}
+
+div.noPadding{
+	padding: 0;
+	margin:0;
+}
+
+div#homeownerPartners_Fields{
+	margin-top: 6px;
+}
+
+.calIconLink{
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+ul#profileList{
+	width: 100%;
+	min-width: 216px;
+}
+
+ul#quickLinksMenu{
+    margin-top: 8px;
+    min-width: 268px;
+}
+
+div.link_ErrorRow{
+	margin-top: 6px;
+}
+
+img.linksErrorIcon{
+	float: left;
+	margin-right: 4px;
+	clear: both;
+	display: inline;
+}
+
+/* common styles */
+div.left {
+    float:left;
+}
+div.right {
+    float:right;
+}
+div.clear {
+    clear:both;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+li.menuHover{
+    background-color: #007ac9;  
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+li.menuHover > a,
+li.menuHover > a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+li.menuHover > div.footerLink > a.expandLink,
+li.menuHover > div.footerLink > a.newQuote{
+     color: #fff;
+}
+
+li.menuHover:hover > div.footerLink > a.expandLink,
+li.menuHover:hover > div.footerLink > a.newQuote{
+    color: #fff;
+    text-decoration: none;
+}
+
+a.linkSelected{
+	cursor: default;
+}
+
+hr#quickLinksDivider{
+	margin-left: 15px;
+	width: 87%;
+}
+
+.hoverText{
+	color: #fff;
+}
+
+div#floodDD_chosen,
+div#dropdownBOPPartners_chosen,
+div#dropdownPartners_chosen{
+	width: 185px !important;
+	max-width: 185px !important;
+	min-width: 185px !important;
+}
+
+button.partnersBtn{
+	width: 174px !important;
+	max-width: 174px !important;
+	min-width: 174px !important;
+	margin-top: 5px;
+}
+
+/*.linksSelect{
+	width: 175px;
+}
+*/
+
+span#apn {
+		width: 400px;
+		display:inline-block;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;	
+}
+
+#opCompanyLabel{
+	font-size: 11px !important;
+	color: #fff;
+}
+
+#profileMenuContent{
+	height: auto !important;
+	width: auto !important;
+}
+
+.popMenu{
+    height: auto !important;
+    width: auto !important;
+    min-width: 350px !important;
+    max-width: 600px !important;
+	max-height: 600px !important;
+	overflow-y: auto !important;
+}
+
+

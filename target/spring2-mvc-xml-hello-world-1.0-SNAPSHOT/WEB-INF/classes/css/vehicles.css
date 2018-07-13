@@ -1,0 +1,199 @@
+/** SSIRIGINEEDI Added newly  **/
+
+.chosenDropDownHidden {
+    display:none !important;
+}
+
+.multiDropDownHidden {
+    display:none !important;
+}
+.vehicleLookupBtnSmall {
+	
+	width:232px ; 
+	height:24px ;
+    font-size: 12px;
+}
+
+.hideVisibility{
+	visibility: hidden;
+}
+
+
+/** tjmcd - are these necessary ?? **/
+.OLDvehicleContent {
+    POSITION: relative;
+    /* tjmcd - BOOTSTRAP - Had to change this do to font size
+    TOP: 74px;
+    */
+    TOP: 90px;
+    margin : 0px 40px;
+    padding: 0px;
+}
+
+.width152 {
+    WIDTH: 152px !important;
+}
+
+.width166 {
+    WIDTH: 166px !important;
+}
+
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+/** tjmcd - END OF are these necessary ?? **/
+
+.selectBoxItHidden {
+    display:none !important;
+}
+
+.vehiclePageHeader {
+    /*** Make sure the header doesn't scroll. Needed for z-index to work ***/
+    position: fixed;
+/*
+    top: 160px;
+    top: 200px;
+    height: 29px;
+    margin : 0px 10px;
+*/
+    width : 960px;
+    margin : -55px 0px 0px 0px;
+
+    /*** Make it float on top of other elements on the page ***/
+    z-index: 100;
+    
+    /*** Make sure its background is opaque ***/
+    /* Fallback for web browsers that doesn't support RGBa */
+    
+    background: rgb(247, 247, 247);
+    /* RGBa with opaque background */
+    background: rgba(247, 247, 247, 1);
+    
+    /* Not sure if these are absolutely necessary. IE 7 seems to work without it but let's be safe */
+    /* For IE 5.5 - 7 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000);
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000)";
+}
+
+#viewPrefill {
+    color: #007AC9;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.scrollBtn {
+	min-width: 12px !important;
+}
+
+.vehiclePageHeader hr {
+    margin: 5px 0px;
+}
+
+.vehicleContent {
+    /*margin : 0px 20px;*/
+}
+
+/**
+#headerDiv {
+	position : absolute;
+}
+**/
+
+.vehicleColumnInput {
+    WIDTH: 152px !important;
+}
+
+.editAntiTheftDiv{
+   FLOAT:left;
+   TEXT-ALIGN:left;
+   cursor:pointer; 
+}
+a.editAntiTheft {
+  
+    BORDER: 0px;
+    MARGIN: 0px;
+    PADDING: 0px;
+    
+}
+
+.antiTheftSelectedDetails {      
+    /*
+    BORDER: 0px;
+    MARGIN: 0px;
+    padding-left:0px;
+    */
+    FLOAT:left; 
+    TEXT-ALIGN:left;   
+}
+
+.centerCell a {
+    WIDTH: 120px;
+    HEIGHT: 27px;
+    MARGIN: 0 auto;
+    DISPLAY: block;
+}
+
+.centerCell a:link {
+    TEXT-ALIGN: center;
+}
+
+#scrollPos {
+	MARGIN-RIGHT: 10px;
+}
+
+#deleteInsurableInterestDlg{
+margin-left:auto;
+margin-right:auto;
+ 
+}
+a.editInsurableInterest {
+	PADDING: 0px;
+    MARGIN: 0px;
+}
+
+.iiList {
+    MARGIN: 0 auto;
+}
+
+.iiHeader {
+    WIDTH: 33%;
+}
+
+.iiInput {
+    WIDTH: 145px;
+}
+
+.editAntiTheft:focus {
+    outline-style:dotted;
+    outline-color:lightgray;
+}
+
+/* Fixes for reducing gap between tab bottom and Top Container & Section Title Top Margin */
+#formTop {
+    background-position: 0 -10px;
+}
+
+.vehicleInformationText {
+    font-weight: bold !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+}
+
+/* Top margin between container and main content */
+#mainContent {
+    margin-top: 153px;
+}
+
+/* Multi select dropdown spans must appear in line with dropdown */
+.ui-dropdownchecklist-selector {
+    padding-top: 0;
+    margin-top: 0;
+}

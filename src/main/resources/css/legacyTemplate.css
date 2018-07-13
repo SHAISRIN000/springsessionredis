@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS file for Top Nav Utilities Bar */
+
+/* Legacy template */
+.legacyTable,
+.eSalesTable{
+    width:100%;
+    border:0px;"
+}
+
+ #legacyPanelContent {
+    height: 100%;
+ }
+ 
+ #legacyFrame {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border: none;
+      display: block;
+      height: 100%;
+      min-height: 800px;
+     
+}
+
+#legacyFrame iframe#srcpage {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    margin: 0; 
+    padding: 0;
+}
+          
+#legacyPanel {
+    position: relative;
+    left: 0px;
+    top: 150px;
+}
+
+#homeLegacyFrame {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border: none;
+      display: block;
+      position: relative;
+      /* height: 100%;
+      min-height: 800px; */
+} 
+
+#homeLegacyFrame iframe#srcpage {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    margin: 0; 
+    padding: 0;
+}
+
+#homeLegacyPanel {
+    position: fixed;
+    left: 0px;
+    top: 150px;
+    width: 100%;
+    height: 95%;
+}
+
+/* ------ NEED HELP BUTTON ------ */
+
+.needHelp {
+  background-color : #9b7c05;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size:15px;
+}
+
+.needHelp:hover {
+	transform: scale(1.12);
+}
+
+#needHelpButton {
+  position: fixed;
+  bottom: -4px;
+  right: 20px;
+}

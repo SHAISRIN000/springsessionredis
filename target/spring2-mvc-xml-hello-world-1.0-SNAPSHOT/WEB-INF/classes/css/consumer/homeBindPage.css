@@ -1,0 +1,88 @@
+
+/*--------------------- customer bootsrap class--------------------- */
+.table-borderless,
+.table-borderless tbody,
+.table-borderless tbody tr td,
+.table-borderless td,
+.table-borderless th,
+.table-borderless tr {
+    border: 0;
+    background-color: transparent;
+}
+
+/*-----------------------End customer bootsrap class ------------------*/
+
+/*----------------------------selected pay plan accordion--------------*/
+
+.panel-payPlan-selected {
+    border-color: #ffa500;
+  }
+.panel-payPlan-selected > .panel-heading {
+     color:#fff;
+     background-color:#ff6f2a;
+}
+
+.payPlanTableMobile{
+    padding-right: 0px;
+    padding-left: 0;
+    margin-left: 0px;
+}
+/*----------------------------End selected pay plan accordion-----------*/
+
+/*----------------------------Bind Page CSS------------------------------*/
+.homeAddInterestBtn{
+	height: 25px;
+	border-radius: 0px;
+	font-size: smaller;
+	padding-left: -1px;
+	color: #0099cc;
+	font-weight: 600;
+	line-height:15px;
+}
+.view3rdPartyReportDetailsHOModal{
+	width: 40%;
+    margin-left: 30%;
+    margin-top: 20%;
+}
+.view3rdPartyReportDetailsHO{
+	 cursor:pointer;
+     color:#007ac9;     
+}
+
+/*----------------------------End Bind Page CSS---------------------------*/
+
+/*---------------------------------Overriden CSS---------------------------*/
+.bindInputZipCity{
+	min-width: 70px !important;
+	width: 96px !important;
+}
+
+.bindInputZip4State{
+	min-width: 70px !important;
+	width: 70px !important;
+}
+
+#state_chosen{
+	min-width: 0px !important;
+}
+/*---------------------------------End Overriden CSS-----------------------*/
+
+/*---------------------------------Media queries---------------------------*/
+@media screen and (max-width: 768px){
+
+  /* show Accordion in small screen */
+  .payPlanTableMobile{
+    display: block !important;
+  }
+  /* hide payPlan table in small screen */
+  #homePayPlanTable{
+  	display: none;
+  }
+  
+  .deleteAdditionalInterestBtn{
+  	margin-top: 4%
+  }
+  
+}
+
+/*------------------------------End Media queries---------------------------*/

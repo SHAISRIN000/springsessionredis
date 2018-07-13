@@ -1,0 +1,181 @@
+body
+{
+	background-color: #fff;
+	margin: 2px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10.5px;
+	line-height: 1.3em;
+}
+
+td
+{
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10.5px;
+	line-height: 1.3em;
+}
+
+p
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#BodyContainer { MARGIN-RIGHT: 2px; }
+
+#PageHead
+{
+	width: 100%;
+	border: #999 1px solid;
+	background: #09C;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #000;
+	padding: 10px 0px 5px 0px;
+}
+
+#PageHead a
+{
+	margin-left: 10px;
+	color: #000;
+	text-decoration: none;
+}
+
+#PageHead a:hover
+{
+	color: #000;
+	text-decoration: none;
+}
+
+#PageBody
+{
+	margin-top: 1px;
+	border: #999 1px solid;
+	background: #e6eff5;
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+#PageBody h1 { margin-left: 10px; }
+
+#PageBody h2 { margin-left: 10px; }
+
+#PageBody h3 { margin-left: 10px; }
+
+table
+{
+	margin-left: 10px;
+	width: 95%;
+	border-right: 1px solid #ccc;
+	background: #fff;
+}
+
+table thead
+{
+	background: #64ACD6;
+	border-top: 1px solid #ccc;
+	color: #fff;
+	font-weight: bold;
+	padding: 4px 5px;
+}
+
+table td
+{
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	vertical-align: top;
+	padding: 4px 5px;
+	color: #333;
+}
+
+table td.FieldName
+{
+	background: #eee;
+	width: 150px;
+}
+
+table td.FieldNumber
+{
+	background: #eee;
+	font-weight: bold;
+}
+
+table tr.TableSubHead
+{
+	font-weight: bold;
+	font-style: italic;
+	background: #ccc;
+}
+
+tr.TableSubTopic td.FieldName
+{
+	padding-left: 25px;
+	width: 125px;
+}
+
+h1
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	color: #585858;
+}
+h1 a
+{
+	text-decoration: none;
+	color: #585858;
+}
+
+h1 a:hover
+{
+	text-decoration: none;
+	color: #585858;
+}
+
+
+h2
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 11px;
+	color: #F7913E;
+}
+
+h2 a
+{
+	text-decoration: none;
+	color: #333;
+}
+
+h2 a:hover
+{
+	text-decoration: none;
+	color: #333;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #333;
+}
+
+h3 a
+{
+	text-decoration: none;
+	color: #F7913E;
+}
+
+h3 a:hover
+{
+	text-decoration: none;
+	color: #F7913E;
+}
+
+a
+{
+	color: #039;
+	text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }

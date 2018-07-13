@@ -1,0 +1,406 @@
+table.prefillFormTab{
+    width: 960px;  /* extra 10px for hr to span */
+}
+
+/* if labels and columns are in separate tables */
+table.prefillFieldChkBox{
+    width: 20px;
+}
+
+table.prefillFieldCols{
+    width: 780px;  /* extra 10px for hr to span */
+}
+
+.prefill-modal-body {
+    /*overwrites modal-body*/
+    padding-top: 0px !important;
+}
+
+#formTop{
+	/* content: "Prefill" !important; */
+    background-image: !important;
+    background-repeat: no-repeat !important;
+    background-position: 0 -10px !important;
+    position: relative !important;
+    z-index: 100 !important;
+    width: 100% !important;
+    margin-top:-7px 0 0 0 !important;
+    
+    padding: 0px 20px !important;
+    
+	border-width:0px !important;
+	/*position:absolute !important;*/
+	left:9px !important;
+	/*left:182px !important;*/
+	top:0px !important;
+	width: 993px  !important;
+	height:49px !important;
+	background:inherit !important;
+	background-color:rgba(25, 158, 216, 1) !important;
+	box-sizing:border-box !important;
+	border-width:1px !important;
+	border-style:solid !important;
+	border-color:rgba(121, 121, 121, 1) !important;
+	border-radius:10px !important;
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	box-shadow:none !important; 
+}
+
+.prefillheader:before {
+    content: "Prefill";
+    font-family: 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+
+.prefillErrorMessage:after{
+	padding-bottom: 24px; 
+	padding-left: 0;
+	font-size:12px; 
+	display:none;
+	
+}
+
+.mismatchColor{
+	color: #FF6600;
+	font-weight: bold;
+}
+
+.fontBlack{
+	color: #000000;
+}
+
+
+.prefillPageHeader {
+     /*** Make sure the header doesn't scroll. Needed for z-index to work ***/
+    position: fixed;
+
+    /*** Make it float on top of other elements on the page ***/
+    z-index: 100;
+    
+    padding-top: 0 !important;
+    /*** Make sure its background is opaque ***/
+    /* Fallback for web browsers that doesn't support RGBa */
+    
+    background-color: #fff;
+    /*background: rgb(247, 247, 247);*/
+    /* RGBa with opaque background */
+   /*background: rgba(247, 247, 247, 1);*/
+   
+    
+    /* Not sure if these are absolutely necessary. IE 7 seems to work without it but let's be safe */
+    /* For IE 5.5 - 7 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000);
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000)";
+}
+
+.prefillSections{
+    margin-top: 29px !important;
+}
+
+/* form section and field rows */
+tr.prefilsectionHeaderRow > td,
+tr.prefillFieldRow > td{ 
+    height: 21px;
+    margin: 0;
+   /* word-wrap: break-word;*/
+    text-align: justify;
+}
+
+/* table#prefill_driverTabledtls  tr:nth-child(odd) { background-color:#FEFEFE }
+table#prefill_driverTabledtls  tr:nth-child(even) { background-color:#f7f7f7 } */
+ /* table#prefill_driverTabledtls  tr:nth-child(even) { background-color:##f7f7f7 } */
+ 
+hr#lineDiv{
+	color:#000000;
+	border-top: 1px solid;
+}
+
+.clsIncludeAllLink{
+    color: #4d7ac9;
+    cursor: pointer;
+}
+
+.expandMinimizeImage{
+	cursor: pointer;
+}
+
+.agentEnteredCurrentCarrierRowFirstTd{
+	width: 166px !important;	
+	text-align: left !important;
+	padding-right: 11px !important;
+	vertical-align: text-top !important;
+}
+
+.prefillCurrentCarrierRowTd{
+	width: 162px !important;	
+	text-align: left !important;
+	padding-left: 3px;
+	vertical-align: text-top !important;
+}
+
+.removeVehicleRowTdBackgroundColor{
+	background-color: #fefefe
+}
+
+.currentCarrierAgentLeftIndent{
+	padding-left: 15px;	
+	display: inline-block;
+}
+
+tr.prefillsectionHeaderRow > td,
+tr.prefillHeaderRow > td{ 
+    height: 21px;
+    margin: 0;
+    word-wrap: break-word;
+    text-align: justify;
+    
+}
+
+.clsAgentEnteredDriverCheckbox{
+	padding-left: 10px;
+}
+
+
+/* .clsAgentEnteredVehicleCheckbox{
+	padding-right: 10px;
+} */
+
+
+/* table#prefill_vehicleTabledtls  tr:nth-child(odd) { background-color:#FEFEFE }
+table#prefill_vehicleTabledtls  tr:nth-child(even) { background-color:#f7f7f7 }
+ */
+.greyBreathingSpace
+{ 
+	background-color:#f7f7f7 
+}
+
+.dataRowWhite
+{ 
+	background-color:#FEFEFE 
+}
+
+.prefillVehicleRow {
+	height:45px !important;
+}
+
+.noPrefillVehicleFound{
+	width: 321px; 
+	padding-left: 19px;
+}
+
+
+tr.discoveredDriversHeaderRow > td{ 
+    height: 21px;
+    margin: 0;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+tr.prefillHeaderRow > td:first-child {
+    padding-left: 10px;
+    padding-right: 11px !important;
+    padding-top: 0;
+}
+
+tr.prefillFieldRow > td:first-child {
+    padding-left: 10px;
+   /*  padding-right: 35px !important; */
+}
+
+tr.prefillFieldRow > td{ 
+     padding-bottom: 4px;
+}
+
+/* where labels reside */
+td.prefillFieldChkBox{
+    width: 5px; 
+    vertical-align: middle;
+     padding: 0;
+     margin: 0;
+}
+
+td.prefillFieldCol{
+    width: 175px;
+    vertical-align: middle;
+    padding-right: 20px;
+    text-align: left;
+}
+
+#mainContent{
+	    padding-top: 21px !important;
+}
+
+td.prefillFieldDeleteforCheckbox{
+	background-color:#fefefe
+}
+td.prefillFieldStatus_dropdownBox{
+	background-color:#fefefe
+}
+#header{
+	font-size:15px;
+	font-weight: bold;
+}
+
+#householdHealder{
+	font-size:13px;
+	font-weight: bold;
+}
+
+label.prefillHeaderLabel{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+label.prefillPadding {
+    font-weight: normal!important;
+    font-size: 12px;
+    display: block;
+    /* padding-left: 15px; */
+    text-indent: -15px;
+}
+label.prefillSectionHeaderLabel{
+    font-size: 14px;
+    line-height: 14px;
+    color:#333333;
+}
+label.prefillSectionDetailsLabel{
+    font-size: 12px;
+    line-height: 12px;
+}
+label.prefillSectionEmptyLabel{
+    font-size: 12px;
+    line-height: 12px;
+    color:#0099cc;
+    text-align: left;
+}
+
+label.prefillSectionHeaderText{
+    font-size: 11px;
+    line-height: 11px;
+    color:#333333;
+}
+
+td.prefillFieldHdrStatus{
+    width: 180px;
+    vertical-align: middle;
+    padding-right: 20px!important;
+    text-align: middle;
+    background-color: #848484;
+    color: #fffeff;
+    font-size: 11px;
+    font-weight: bold;
+ }
+ 
+  
+td.prefillFieldStatus{
+    width: 180px;
+    vertical-align: middle;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.tdAgentEnteredDriverData{
+	padding-left: 12px;
+	min-width: 281px !important;
+	max-width: 281px !important;
+	padding-right: 0px !important;
+}
+ 
+td.prefillsectionHeaderColStatus,
+td.prefillFieldHdrColStatus{
+    width: 180px;
+    vertical-align: middle;
+    padding-right: 20px!important;
+    text-align: middle;
+    background-color: #848484;
+    font-size: 11px;
+    font-weight: bold;
+ }
+td.prefillsectionHeaderColDeleteStatus,
+td.prefillFieldHdrColDeleteStatus{
+    width: 100px;
+    vertical-align: middle;
+    padding-right: 20px!important;
+    text-align: middle;
+    background-color: #848484;
+    font-size: 11px;
+    font-weight: bold;
+ }
+td.prefillsectionFieldHdrFirstCol,
+td.prefillFieldHdrFirstCol{
+    width: 15px;
+    vertical-align: middle;
+    text-align: middle;
+  }
+
+th.prefillFieldStatus{
+    width: 180px;
+    vertical-align: middle;
+    padding-right: 20px!important;
+    text-align: left;
+}
+th.prefillFieldDelete{
+    width: 100px;
+    vertical-align: middle;
+    padding-right: 20px!important;
+    /* text-align: left; */
+}
+/* select dropdown - styles will apply to SelectBox It dropdown wrapper */
+.prefillColSelect{
+  width: 180px !important;
+  min-width: 180px  !important;
+  max-width: 180px !important;
+  height: 21px !important;
+  min-height: 21px !important;
+  max-height: 21px !important;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 21px !important;
+  color: #333333;
+}
+
+/* Section divider */
+.prefillDivider {
+    /*margin: -5px 0 5px;*/
+    border-top: 2px solid #dadada;
+    border-bottom: none;
+    width: 30%;
+    margin-top: 0;
+    vertical-align: middle;
+    margin-bottom: 3px;
+    margin-left: 33%;
+  }
+  
+ .dottedWhite{
+    outline-style:dotted;
+    outline-color:white;
+  }
+  
+  .anchor-highlight:focus {
+     outline-style:dotted;
+     outline-color:white;
+  }
+  
+.currentCarrierLables{
+font-weight: bold;	
+display: inline-block;
+padding-bottom: 3px;
+	padding-top: 4px;
+}  
+ 
+.reqdEntryCls{
+	color:#cb867b;
+}
+ 

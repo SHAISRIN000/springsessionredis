@@ -1,0 +1,625 @@
+/**
+@author vmaddiwar
+@description Create one stylesheet for whole Inquiry module which includes tabs like Summary, Driver, Vehicle, Coverage, 
+			 Billing, Claim, Document and Notes.
+*/
+.pageHeader {   
+    position: fixed;   
+    width : 938px;    
+    margin : -35px 0px 0px 0px;
+    padding-left: 10px;
+    padding-top:1px;
+    /*** Make it float on top of other elements on the page ***/
+    z-index: 100;   
+    background: rgb(247, 247, 247);
+    /* RGBa with opaque background */
+    background: rgba(247, 247, 247, 1);
+    /* Not sure if these are absolutely necessary. IE 7 seems to work without it but let's be safe */
+    /* For IE 5.5 - 7 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000);
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000)";
+}
+
+#inquiryFormTop {
+    margin: -18px 0 0 0;
+    *margin: -18px 0 0 0;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height:0px;
+}
+
+#formTop{
+    background-image: url(../images/AI2FormTop.png);
+    background-repeat: no-repeat;
+    /* background-position: top left;
+    background-position-y: -10px; */
+    background-position: 0 -10px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    margin-top:-7px 0 0 0;
+    height: 40px;
+    padding: 0px 20px;
+}
+
+.sectionLabel {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #333333;
+    vertical-align: top;
+}
+
+.form2Column {
+    font-size: 12px;
+    line-height: 3px;
+    margin: 0px;
+    color: #333333;
+}
+
+
+.divider {
+    border-top: 1px solid rgb(218, 218, 218);
+    border-bottom: medium none;
+    width: 430px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+
+.dividerFull {
+    border-top: 1px solid rgb(218, 218, 218);
+    border-bottom: medium none;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+#scrollPanel {
+    MARGIN-RIGHT: 34px !important;  
+}
+
+#scrollPos {   
+    MARGIN-RIGHT: 10px !important;
+}
+
+.scrollBtn {
+    min-width: 12px !important;
+    cursor:pointer;
+}
+
+.pageHeader hr {
+    margin: 2px 0px !important;
+}
+
+.content {        
+    margin : 0px 25px !important;
+}
+
+.rowHeaderAndSlidingFrameParentDiv {
+    margin-top: 10px !important;
+}
+
+.rowHeaderDiv {    
+    float: left !important; 
+    width: 220px !important; 
+    right: 220px !important;  
+}
+
+.rowHeadersheadDiv {
+    float: left !important;
+    height: 20px;
+    margin-top:40px !important;    
+}
+
+.rowHeaderLabelsDiv {
+    float: left !important;  
+    width: 220px !important; 
+    right: 220px !important; 
+}
+
+.slidingFrame {
+    WIDTH: 666px !important;     
+    FLOAT: left !important;
+    OVERFLOW: hidden !important;
+    border-top-right-radius: 6px;
+    /* border-bottom-right-radius: 6px; */
+}
+
+.slidingTable {
+    TABLE-LAYOUT: fixed !important;
+    MAX-WIDTH: none !important;
+}
+
+
+.errorCol {
+    width: 220px !important;	
+    vertical-align:top !important;
+}
+
+.addLabelHeaderColumn {
+	width: 220px !important;	
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.indexHeaderLabel {
+	font-weight: bold;
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+.sectionHeaderRow {
+	height: 27px !important;
+}
+
+.columnClass {
+	height: 25px !important;
+	border:1px solid rgb(211, 211, 211);
+	max-width: 220px;
+}
+
+.columnClassPCAT {
+	border:1px solid rgb(211, 211, 211);
+	max-width: 220px;
+}
+
+.inquiryLabel{
+	vertical-align : middle;
+	line-height:15px;
+	height: 32px;
+	max-height: 32px;
+	display:table-cell; 
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 12px;
+	color: #3b3b3b;
+	font-weight: bold;
+}
+
+.inquiryLabelRenters{
+    vertical-align : middle;
+    line-height:15px;
+    height: 45px;
+    max-height: 50px;
+    display:table-cell; 
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    color: #3b3b3b;
+    font-weight: bold;
+}
+
+.inquiryLabelData{
+	vertical-align : middle;
+	line-height:15px;
+	height:32px; 
+	max-height: 32px;	
+	font-weight: normal;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #3b3b3b;
+	font-size: 12px;	
+	display:table-cell; 
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.inquiryLabelDataRenters{
+    vertical-align : middle;
+    line-height:15px;
+    height:32px; 
+    max-height: 32px;   
+    font-weight: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #3b3b3b;
+    font-size: xx-small;    
+    display:table-cell; 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.totalLabel{
+	vertical-align : middle;
+	line-height:15px;
+	height: 25px;
+	max-height: 32px;
+	display:table-cell; 
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 12px;
+	color: #3b3b3b;
+	font-weight: bold;	
+}
+
+
+.borderTotalLeftRadiusDiv{
+	
+ 	-webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+ 	-moz-border-radius-topleft: 10px;
+ 	
+ 	-webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+ 	-moz-border-radius-bottomleft: 10px;
+
+	/* display:table-row; */
+    border:1px solid;
+    border-right:0px;
+    height: 25px !important;	
+	background-color: rgb(238, 238, 238);
+}
+
+.borderTotalRightRadiusDiv{
+	
+ 	-webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+ 	-moz-border-radius-topright: 10px;
+ 	
+ 	-webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+ 	-moz-border-radius-bottomright: 10px;
+
+	display:table-row;
+    border:1px solid;
+    border-left:0px;
+    height: 25px !important;	
+	background-color: rgb(238, 238, 238);
+}
+
+.rowTotalHeaderDiv {    
+    float: left !important; 
+    *width: 220px !important; 
+    right: 220px !important;  
+}
+
+.slidingTotalFrame {
+    FLOAT: left !important;
+    OVERFLOW: hidden !important;
+    border-top-right-radius: 10px;
+}
+	
+/* .table th {
+    line-height: 13px;
+} */
+
+.table th {
+    border-right: 0px;
+}
+
+.table-bordered th{
+    border-left: 1px solid rgb(102, 102, 102);
+}
+
+.summaryTable td {
+    padding: 8px;
+    line-height: 13px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid rgb(211, 211, 211);
+    font-weight: normal;
+    font-size: 12px;
+    color: rgb(85, 85, 85);
+    border-right: 1px solid rgb(211, 211, 211);    
+    margin: 0px;
+}
+
+
+.columnHeaderClass{
+	height: 45px !important;
+	background-color: rgb(102, 102, 102);
+	color: rgb(255, 255, 255);
+	border-color: rgb(102, 102, 102);
+}
+
+.rowHeaderTable{
+	width: 220px !important;
+	-webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+ 	-moz-border-radius-topleft: 10px;
+ 	border-collapse:collapse;
+}
+
+.borderRightZero{
+	border-right: 0px;
+}
+
+.borderLeftZero{
+	border-left: 0px;
+}
+
+.borderTopLeftRadius{
+	-webkit-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+ 	-moz-border-radius-topleft: 6px;
+}
+
+.borderTopRightRadius{
+	-webkit-border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
+ 	-moz-border-radius-topright: 6px;
+}
+
+
+.borderBottomRightRadius{
+	-webkit-border-bottom-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+ 	-moz-border-radius-bottomright: 6px;
+}
+
+.borderLeftRadiusDiv{
+	-webkit-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+ 	-moz-border-radius-topleft: 6px; 	
+	display:table-row;
+    border-left:1px solid;
+    *border-top:1px solid;
+    border-bottom:2px solid;
+    height: 45px !important;
+	background-color: rgb(102, 102, 102);	
+	border-color: rgb(102, 102, 102);
+}
+
+#inquiryContent{
+    margin-top: 142px;
+    *margin-top: 162px;
+    margin-left: 30px;
+    padding-top: 30px;
+    *padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.inquiryInfoBox{
+	width: 370px;
+/* 	height: 75px;
+ */	background-color: rgb(239, 239, 239);
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 3px 3px 3px 3px;
+	padding-top: 8px;
+	padding-left: 5px;
+	font-size: 11px !important;
+	color: rgb(102, 102, 102);
+	font-weight: bold;
+	line-height: 15px;
+	margin-top: 2px;
+}
+
+.premiumInfoBox{
+	margin: 0px 560px;
+    width: 350px;
+    height: 70px;
+    background-color: rgb(239, 239, 239);
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 3px 3px 3px 3px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 11px !important;
+    color: #3b3b3b;
+    font-weight: bold;
+    line-height: 15px;
+    text-align: left;
+}
+
+.termSelect {
+    width: 152px !important;
+    min-width: 152px !important;
+    max-width: 152px !important;
+    height: 23px !important;
+    min-height: 23px !important;
+    max-height: 23px !important;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 21px !important;
+    color: rgb(51, 51, 51);
+}
+
+
+
+.premiumBox{
+    display: inline-block;
+    float: right;
+    width: 125px;
+    height: 50px;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px ;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f7e6c0), to(#eed088));
+    background-image: -webkit-linear-gradient(top, #f7e6c0, #eed088);
+    background-image: -o-linear-gradient(top, #f7e6c0, #eed088);
+    background-image: linear-gradient(to bottom, #f7e6c0, #eed088);
+    background-image: -moz-linear-gradient(top, #f7e6c0, #eed088);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    border: 1px solid rgb(153, 155, 154);
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#f7e6c0', endColorstr='#eed088', GradientType=0);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; 
+    font: arial;
+    font-size: 24px;
+    color: #3b3b3b;
+    font-weight: bold;
+    line-height: 13px;
+    margin-top: 0px;    
+    margin-left: 12px;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right:0px;
+}
+
+.actionContent{
+	width: 180px;
+	float: right;
+	margin-right: 212px;
+	margin-top: -80px;
+}
+
+.eserviceSaveBtn {
+    padding: 2px 2px !important;
+    font-size: 12px !important;
+    *line-height: 10px !important;
+}
+
+.padLeft {   
+    padding-left:2px;
+    display: inline-block;
+}
+
+.popover {
+    color: #333333;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    max-width: 600px !important;
+}
+
+#claimEmail{
+    width: 600px;
+    border: 1px solid #d9d9d9;
+    text-align: left;
+    padding: 15px 7px 4px 7px;
+}
+
+table#tblEsigEmail{
+    margin-top: 13px;
+}
+
+tr.emailRow{
+    height: 15px;
+}
+
+td.emailLbl{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    vertical-align: middle;
+}
+
+td.emailFld{
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    vertical-align: middle;    
+}
+
+input.emailTextWidth{
+    width: 350px !important;
+    font-size: 11px;
+}
+
+#claimMessageBody{
+    width: 340px;
+    font-size: 11px;
+    height: 100px;
+}
+
+
+/*For the Policy Term Drop down,to provide the internal scroll the below styles will override actual drop down styles from chosen.css */
+div#policyTermsSelect_chosen.chosen-container .chosen-results{
+	position: relative;
+	overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0px;
+	padding: 0px;
+    max-height: 63px;
+    line-height: 5px; 
+}
+
+div#policyTermsSelect_chosen.chosen-container .chosen-results li.active-result{
+	display: list-item;
+    cursor: pointer;
+    line-height: 5px;
+}
+
+/*.chosen-container .chosen-results {
+		    position: relative;
+		    overflow-x: hidden;
+		    overflow-y: auto;
+		    margin: 0px;
+		    padding: 0px;
+		    max-height: 63px;
+		    line-height: 5px; 
+		}
+		
+.chosen-container .chosen-results li.active-result {
+    display: list-item;
+    cursor: pointer;
+    line-height: 5px;
+}
+*/
+
+.homeCovColHeader{
+    height: 35px !important;
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    border-color: rgb(102, 102, 102);
+}
+.widerColumnHeader{
+	width: 250px !important;
+	padding-left: 5px !important;
+    padding-right: 5px !important;
+    line-height: 0px !important;
+}
+.justified:before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+.justified{
+	text-align: justify;
+}
+.justified:after{
+    content: "";
+    display: inline-block;	
+    width: 100%;
+}
+.ellipsis{    
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.ellipsis:hover{
+	overflow:visible;
+    white-space: normal;
+}
+
+.ui-dropdownchecklist {
+    border: 1px solid #d9d9d9;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #fff;
+    height: 21px;
+    width: 160px;
+}
+
+.dropDownMultiSelect{
+    width: 160px;
+}
+
+.ui-dropdownchecklist-headertext {
+	margin-left: 10px
+}
+
+.ui-dropdownchecklist-dropcontainer {
+    min-width: 160px;
+}
+
+.ui-dropdownchecklist-selector{
+	padding: 1px 1px 1px 1px;
+    margin-top: 0px;
+    width : 160px;
+    max-width : 160px;
+}
+
+.ui-dropdownchecklist-default{
+	width : 160px;
+    max-width : 160px;
+}

@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+
+.modalSummary {
+  width: 500px !important; 
+}
+
+.modal-body-summary {
+  max-height: 500px;  
+  overflow: auto;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:15px;
+  font:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-weight: bold;
+  font-color: #333333 !important; 
+}
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+ .imgForChrome  {width: 150px !important; height: auto !important; }
+} 
+
+ @media screen and (-webkit-min-device-pixel-ratio:0) {
+ .adjForChrome  { height: 100px !important; }
+} 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ .adj2ForChrome  { height: 85px !important; }
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.adjustForChrome { width: 197px !important; }
+}
+
+.selectedPayPlan{
+    
+    background-color:#FFA500 !important;
+    text-align: left !important;
+}
+
+.selectedPayPlanRight{
+    
+    background-color:#FFA500 !important;
+    text-align: right !important;
+}
+
+.reportTD {
+    text-align: left !important;
+         
+}
+
+.currencyAlign {
+    text-align: right !important;
+         
+}
+
+.alignRight{
+	 text-align: right !important;
+	 padding-right:3px !important;
+}
+
+.reportRed {
+    color: #FF0000 !important; 
+    font-weight: bold !important; 
+}
+
+.pligaText {
+     padding-top:10px !important; 
+}
+
+.reportNoCursor {
+    color: #555555 !important; 
+    text-decoration: none !important;
+    cursor: default !important;
+}
+
+.reportGray {
+    color: #555555 !important; 
+    /*text-decoration: none !important;
+    cursor: default !important;*/
+}
+
+
+.currentPremium {
+    color: #1b79be;
+    font-size: 28px;
+    font-weight: bold;
+    vertical-align: top;
+    width: 400px;
+    
+}
+
+.currentPremiumForHO {
+	padding-top : 15px;
+    color: #1b79be;
+    font-size: 28px;
+    font-weight: bold;
+    vertical-align: top;
+    width: 400px;
+    /* padding-left: 10px;  */
+    
+}
+
+.currentQuotePremium {
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    vertical-align: top;
+    width: 400px;
+    
+}
+.currentPremiumText {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: top;
+    width: 400px;
+   
+}
+
+.currentPremiumSmallText{
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: top;
+    width: 400px;
+   
+}
+
+
+.currentMonthText {
+    color: #333333;
+    font-size: 12px;
+    vertical-align: top;
+    width: 400px;
+    font-weight: bold !important; 
+}
+
+#summaryCoveragesFlyout {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #CCCCCC;
+    margin-left: 200px;
+    margin-top: -2000px;
+    /*overflow-x: hidden;
+    overflow-y: scroll;
+    display: none;*/
+    padding: 2px;
+    position: absolute;
+    resize: none;
+    width: 600px;
+    z-index: 100;
+}
+
+.discountPopOver{
+     width: 600px !important; 
+}
+
+.popover{
+	max-width: 600px !important;
+} 
+
+
+.closeSummaryCoverages{
+    float:right;
+    /* padding-right:10px;*/
+    display:inline-block;
+}
+
+
+.closeDiscountsDetails{
+    float:right;
+    /* padding-right:10px;*/
+    display:inline-block;
+}
+
+.closeDiscountsPopup{
+    float:right;
+    padding-right: 5px;
+    display:inline-block;
+}
+
+.padLeft {
+   
+    padding-left:5px;
+}
+
+a.closeReconcileModal {
+    margin-left: 10px;
+}
+
+.premiums {
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: top;
+    width: 100px;
+    padding-left:20px;
+}
+
+.summaryEndtText {
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: top;
+    width: 100px;
+    padding-left:20px;
+    white-space: nowrap;
+ 	overflow: hidden;
+}
+
+a:focus{
+    border: thin solid black;
+}
+
+.accForg {
+    color: #FF0000 !important; 
+}
+
+/* Fixes for reducing gap between tab bottom and Top Container & Section Title Top Margin */
+#mainContent {
+    padding-top: 3px;
+    margin-top: 136px;
+}
+
+.globalHeader {
+    height: 170px;
+    background-position-y: -25px;
+}
+
+#formTop {
+    height: 21px;
+}
+
+#fixedPageHeader {
+    height: 20px;
+}
+
+.crossSellBox {
+    width: 100x;
+    height: 60px;
+    background-color: #efefef;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5x;
+    padding-bottom: 5px;
+    font-size: 11px !important;
+    color: #333;
+    font-weight: bold;
+    line-height: 15px;
+}

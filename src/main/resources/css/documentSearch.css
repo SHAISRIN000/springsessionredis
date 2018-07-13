@@ -1,0 +1,219 @@
+@charset "utf-8";
+
+select.multiCheckdropDownDocSearch{
+	width: 160px !important;
+	
+}
+
+/* override ddcl styles */
+#ddcl-docType_DocSearch{
+	width: 160px 
+}
+
+#ddcl-producer_DocSearch{
+	width: 160px 
+}
+
+#ddcl-lob_DocSearch{
+	width: 160px 
+}
+
+#ddcl-uwCompany_DocSearch{
+	width: 160px 
+}
+
+.ui-dropdownchecklist-headertext {/* to resolve issue where selected text is cutting into arrow icon */
+  line-height: 14px !important;
+    margin-left: 2px;
+    width: 132px; 
+}
+
+
+/** Styles for Doc Search grid header **/
+table#gridHeaderForDocumentSearch {
+  /*  margin-top: 12px; */
+  width: 960px;
+}
+
+
+#gridHeaderForDocumentSearch tr {
+	height: 35px;
+}
+
+#gridHeaderForDocumentSearch td {
+	font-weight: bold;
+	text-align: left;
+	height: 35px;
+	background-color: #666;
+	color: #fff;
+	line-height: 15px;
+	vertical-align: middle;
+	padding: 2px 0px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	border: none;
+	border-style: none;
+}
+
+/* grid column headers */
+#gridHeaderForDocumentSearch td#policyHolderName{
+    *width: 187px;
+    max-width: 187px;
+    min-width: 187px;
+    padding-left: 13px;  
+}
+
+#gridHeaderForDocumentSearch td#folderNumber{
+	*width: 141px;
+	max-width: 141px;
+	min-width: 141px;
+    padding-left: 9px;  
+}
+
+#gridHeaderForDocumentSearch td#description{
+	*width: 215px;
+	max-width: 215px;
+	min-width: 215px;
+	padding-left: 10px;  
+}
+
+#gridHeaderForDocumentSearch td#status{
+	*width: 150px;
+	max-width: 150px;
+	min-width: 150px;
+	padding-left: 0px;  
+}
+
+#gridHeaderForDocumentSearch td#processDate{
+	*width: 125px;
+	max-width: 125px;
+	min-width: 125px;
+	padding-left: 0px; 
+}
+
+/*#gridHeaderForDocumentSearch td#viewBtn{
+	*width: 125px;
+	max-width: 125px;
+	min-width: 125px;
+	padding-left: 0px;
+}
+*/
+
+#docsearchgrid td.chkBoxCol{
+	text-align: center; 
+	vertical-align: middle; 
+}
+
+#gridHeaderForDocumentSearch td#selectAll{
+	*width: 75px;
+	max-width: 75px;
+	min-width: 75px;
+	padding-left: 0px;
+}
+
+/** Styles for Doc Search grid  **/
+
+#docsearchgrid td{
+    font-weight: bold;
+    text-align: left;
+    padding: 3px;
+    padding-left: 10px;
+    /*color: #666666;*/
+    color: #555555;
+   /*  line-height: 25px; */
+    height: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: #666666;
+    border-right: #CCC solid 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+}
+
+.altRows { 
+    background: #E8E8E8;
+}
+
+table#docsearchgrid.ui-jqgrid-btable{
+    margin-top: 11px;
+}
+
+#docsearchgrid td.nameForDocumentSearch{
+    border-left: #CCC solid 1px;
+}
+
+button#exportXlsxBtnDS {
+	border-radius: 5px;
+	color: #115f86;
+	padding: 5px;
+	margin-top: -5px;
+	margin-right: -10px;
+}
+
+.savePrintLabel{
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: bold !important;
+    color: #333;
+}
+
+.savePrintHeader{
+    width: 270px;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.savePrintHeaderLabel{
+    font-size: 14px;
+    font-weight: bold !important;
+}
+
+.savePrintHeaderHR{
+    border-top: 2px solid #b9e259;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 270px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+li.menuItem > div.footerLink >  a.savePrintHeaderLabel{
+    color: #333;
+}
+
+li.menuItem:hover > div.footerLink > a.savePrintHeaderLabel{
+    color: #333;
+    text-decoration: none;
+}
+
+.sortColDS{
+    cursor: pointer;
+}
+
+div#docSearchErrorMessage {
+	border: 1px solid #eb5339;
+	border-radius: 8px 8px 0px 0px;
+	margin-top: 20px;
+	word-wrap: no-wrap;
+	background-color: #fccac2;
+	padding: 7px;
+	max-width: 400px;
+}
+
+/* overwrite existing jqgrid classes */
+.ui-jqgrid .selected-row, div.ui-jqgrid .selected-row td {font-style: normal; border-left: 0px none;}
+.ui-jqgrid tr.jqgrow { outline-style: none; }
+.ui-jqgrid tr.jqgroup { outline-style: none; }
+.ui-jqgrid-labels{display: none;}
+
+div.savePrintBtns{
+	margin-left: 120px;
+}
+
+button.printDoc{
+	margin-left: 5px;
+}
+

@@ -1,0 +1,141 @@
+@CHARSET "ISO-8859-1";
+
+/* table#gridHeaderClaims {
+	    width: 958px;
+} */
+
+#searchResultsFormBodyClaimsTR{
+    width: 1000px;
+    min-height: 100%;
+    margin-top: 107px;
+    
+}
+
+/* grid column headers */
+#gridHeaderClaims td#name {
+	max-width: 83px;
+	    padding-right: 83px;
+    padding-left: 30px;
+}
+
+/* This will work only for chrome and safari */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ #gridHeaderClaims td#name {padding-right: 82px !important; }
+}
+
+#gridHeaderClaims td#claimNumber {
+	width: 86px;
+    padding-right: 17px;
+    padding-left: 7px;
+}
+
+#gridHeaderClaims td#policyNumber {
+	padding-left: 12px;
+    padding-right: 102px;
+    max-width: 90px;
+}
+
+#gridHeaderClaims td#transactionType {
+	max-width: 115px;
+	padding-left: 7px;
+    padding-right: 29px;
+}
+
+#gridHeaderClaims td#claimType {
+	max-width: 135px;
+	padding-left: 6px;
+	 padding-right: 37px;
+}
+
+#gridHeaderClaims td#processDate {
+	max-width: 80px;
+	    padding-left: 5px;
+    padding-right: 31px;
+}
+
+#gridHeaderClaims td#dateOfLoss {
+	max-width: 84px;
+	    padding-left: 3px;
+    padding-right: 53px;
+}
+
+#gridHeaderClaims td#paymentInformation {
+	max-width: 130px;
+	padding-left: 10px;
+    padding-right: 51px;
+}
+
+#gridHeaderClaims tr {
+	height: 35px;
+}
+
+#gridHeaderClaims td {
+	font-weight: bold;
+	text-align: left;
+	height: 35px;
+	background-color: #666;
+	color: #fff;
+	line-height: 15px;
+	vertical-align: middle;
+	padding: 2px 0px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	border: none;
+	border-style: none;
+}
+
+
+#claimsGrid td{
+    font-weight: bold;
+    text-align: left;
+    padding: 4px 4px 2px 2px;
+    /*color: #666666;*/
+    color: #555555;
+   /*  line-height: 25px; */
+    height: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: #666666;
+    border-right: #CCC solid 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+    /* white-space: nowrap; */
+}
+
+#claimsGrid td.policyNumber{
+	 white-space: nowrap;
+	  padding-left: 10px;
+}
+
+.altRows { 
+    background: #E8E8E8;
+}
+
+button#applyBtnForClaims {
+	border-radius: 5px;
+	color: #115f86;
+	padding: 6px 25px;
+	margin-left: 353px;
+	width: 107px;
+}
+
+table#claimsGrid.ui-jqgrid-btable{
+    margin-top: 20px;
+}
+
+#claimsGrid td.nameForClaims{
+    border-left: #CCC solid 1px;
+    padding-left: 25px;
+}
+div#claimsErrorMessage {
+	/* border: 1px solid #eb5339;
+	border-radius: 8px 8px 0px 0px;
+	margin-top: 20px;
+	word-wrap: no-wrap;
+	background-color: #fccac2;
+	padding: 7px;
+	max-width: 400px; */
+	margin-left: 250px;
+}

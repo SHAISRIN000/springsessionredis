@@ -1,0 +1,146 @@
+@CHARSET "ISO-8859-1";
+
+table#gridHeaderForBilling {
+	    width: 960px;
+}
+
+/*Added for ellipsis on lengthy email addresses*/
+#billinggrid td.contactInfoBilling a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 97px;
+    display: block;
+}
+
+/*billing grid column headers */
+#gridHeaderForBilling td#clientName {
+	width: 45px;
+	/* max-width: 95px;
+	min-width: 95px; */
+	padding-left: 30px;
+	padding-right: 85px;
+}
+
+#gridHeaderForBilling td#commInfo {
+	width: 90px;
+	padding-left: 7px;
+	padding-right: 20px;
+}
+
+#gridHeaderForBilling td#policyNumber {
+	width: 90px;
+	/* max-width: 85px;
+	min-width: 85px; */
+	padding-left : 10px;
+	padding-right: 60px;
+}
+
+#gridHeaderForBilling td#transactionType {
+	width: 98px;
+	/* max-width: 65px;
+	min-width: 65px; */
+	padding-left : 7px;
+	padding-right: 13px;
+}
+
+#gridHeaderForBilling td#status {
+	width: 70px;
+	/* max-width: 55px;
+	min-width: 55px; */
+	padding-left: 7px;
+	padding-right: 25px;
+}
+
+#gridHeaderForBilling td#processDate {
+	/* max-width: 40px;
+	min-width: 40px; */
+	padding-left: 7px;
+	    width: 50px;
+    padding-right: 26px;
+}
+
+#gridHeaderForBilling td#actionDate {
+	width: 64px;
+	/* max-width: 35px;
+	min-width: 35px; */
+	padding-left: 10px;
+	padding-right: 9px;
+}
+
+#gridHeaderForBilling td#totalAmt {
+	/* max-width: 80px;
+	min-width: 80px; */
+    padding-left: 10px;
+}
+
+#gridHeaderForBilling tr {
+	height: 35px;
+}
+
+#gridHeaderForBilling td {
+	font-weight: bold;
+	text-align: left;
+	height: 35px;
+	background-color: #666;
+	color: #fff;
+	line-height: 15px;
+	vertical-align: middle;
+	padding: 2px 0px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	border: none;
+	border-style: none;
+}
+
+
+#billinggrid td{
+    font-weight: bold;
+    text-align: left;
+    padding: 3px;
+    /*color: #666666;*/
+    color: #555555;
+   /*  line-height: 25px; */
+    height: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: #666666;
+    border-right: #CCC solid 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+     padding-left: 10px;
+    /* white-space: nowrap; */
+}
+
+.altRows { 
+    background: #E8E8E8;
+}
+
+table#billinggrid.ui-jqgrid-btable{
+    margin-top: 19px;
+}
+
+#billinggrid td.nameForBilling{
+    border-left: #CCC solid 1px;
+    padding-left: 25px;
+}
+
+div#billingErrorMessage{
+	border: 1px solid #eb5339;
+	border-radius: 8px 8px 0px 0px;
+	margin-top: 20px;
+	word-wrap: no-wrap;
+	background-color: #fccac2;
+	padding: 7px;
+	max-width: 400px;
+}
+
+#billinggrid td.policyNumber{
+	 white-space: nowrap;
+	  padding-left: 10px;
+}
+
+#billinggrid td.applicantName{
+    border-left: #CCC solid 1px;
+}

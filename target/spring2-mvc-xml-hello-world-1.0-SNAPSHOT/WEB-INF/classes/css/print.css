@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS styles for print */
+
+body {
+   color: #000 !important;
+   background: transparent !important;
+}
+
+.globalHeader {
+   position: static;
+   height: auto !important;
+}
+
+#globalHeaderBottom {
+   margin-top: 25px !important;
+}
+
+#fixedPageHeader {
+   position: static;
+   margin-top: 0;
+   height: 0;
+}
+
+#mainContent, #inquiryContent {
+   margin-top: -40px !important;
+}
+
+#formTop{
+   height: auto  !important;
+   position: static;
+}
+
+.rateBtn, .rateBtn *, .premiumBox, .premiumBox * {
+   background: transparent !important;
+   filter: none;
+}
+
+#tabPanel, #tabPanel *, #tabs, #tabs * {
+   background: transparent !important;
+   filter: none;
+}
+
+#formBody {
+   margin: 0 !important;
+}
+
+.driverPageHeader, .coveragePageHeader {
+    position: static !important;
+    filter: none;
+    margin-top: -20px !important;
+}
+
+.vehiclePageHeader{
+    position: static !important;
+    filter: none;
+    margin-top: -40px !important;
+}
+
+.coverageHeaderSpacing {
+    padding-top: 0 !important
+}
+
+.aiBtn {
+    filter: none !important;
+}

@@ -1,0 +1,446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    
+    <script type="text/javascript" src="../js/common/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="../js/common/jquery-1.8.23-ui.js"></script>
+    <script type="text/javascript" src="../js/bootstrap/bootstrap-combined.js"></script> 
+        
+    <!--  Need to include these files as will get exception when including common.js -->
+    <script type="text/javascript" src="../js/dropdowns/jquery.selectBoxIt.js"></script>
+    <script type="text/javascript" src="../js/dropdowns/ui.dropdownchecklist-1.4-min.js"></script>
+   
+    <script type="text/javascript" src="../js/common/common.js"></script>
+    <script type="text/javascript" src="../js/common/uiModals.js"></script>
+   
+   <link href="bootstrap/bootstrap.css" rel="stylesheet" media="screen"/>
+   <link href="aiCommon.css" rel="stylesheet" media="screen"/>
+
+  </head>
+  <body>
+ 
+      <!-- Resizable Modeless -->
+     <h1>Resizable Modeless</h1><p/>
+     <a href="#" id="openModeless">View Resizable Modeless</a><br/>
+     
+    <div id="myModeless" class="modeless draggable resizable modal" tabindex="-1" style="width:500px;">
+         
+          <!--  Modeless Header - All Modeless windows have one -->
+          <div class="modeless-header dragHandle">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                Testing Resizable Modeless   
+         </div>
+         
+         <!--  Modeless Main Content -->
+         <div class="modeless-main">
+                 
+                 <div class="resizePush">
+                     <!--  Here's where your content should go  -->
+                     <div class="modeless-body">
+                         <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                         <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                         <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                     </div>
+                 </div>
+               
+               <!--  Modeless Footer -->
+               <div class="modeless-footer dragHandle">
+                 <button type="button" class="aiBtn primaryBtn">Primary</button>
+                 <button type="button" class="aiBtn secondaryBtn">Secondary</button>
+               </div>
+         </div>
+      </div>
+      <br/><br/>
+       
+    <!-- Modal Stationary -->
+    <h1>Modal Stationary</h1><p/>
+    <a href="#" id="openStationaryModal">Modal Stationary</a><br/>
+    
+    <div id="myStationaryModal" class="modal modalStationary" data-backdrop="static" tabindex="-1" style="width:580px;">
+           
+           <div class="modal-header">
+              <button type="button" class="close closeModal" data-dismiss="modal">x</button>
+              Stationary Modal
+            </div>
+           
+            <!--  Here's where your content should go  -->
+            <div class="modal-body">
+                 <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                 <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                 <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div> 
+            
+            <div class="modal-footer">
+              <button type="button" class="aiBtn primaryBtn">Primary</button>
+              <button type="button" class="aiBtn secondaryBtn">Secondary</button>
+              <a href="#" class="closeModal" data-dismiss="modal">Close</a>
+            </div>  
+       </div>
+       <br/><br/>
+      
+       <!-- Modal Draggable -->
+       <h1>Modal Draggable</h1><p/>
+       <a href="#" id="openDraggableModal">Modal Draggable</a><br/><br/>
+       
+      <div id="myDraggableModal" class="modal draggable resizable" data-backdrop="static" tabindex="-1" style="width:580px;">
+              <div class="resizePush">
+                  <div class="modal-header dragHandle">
+                        <button type="button" class="close" data-dismiss="modal">x</button>
+                          Modal Draggable
+                  </div>
+                  
+                  <!--  Here's where your content should go  -->
+                  <div class="modal-body">
+                     <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                     <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                     <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>  
+                     <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                     <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                     <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>  
+                     <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                     <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                     <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>  
+                     <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                     <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                     <p>Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>  
+                  </div>
+                </div>
+                
+                <div class="modal-footer dragHandle">
+                   <button type="button" class="aiBtn primaryBtn">Primary</button>
+                   <button type="button" class="aiBtn secondaryBtn">Secondary</button>
+                   <a href="#" class="closeModal" data-dismiss="modal">Close</a>
+            </div>  
+      </div>
+      <br/><br/> 
+      
+
+    <!-- Soft/Hard Edit Details Modals -->
+    <div>
+       <h1>Mixure of Error and Warning - Modeless</h1><p/>
+       <a href="#" id="openMixDetails" data-toggle="modal">Mixure of Error and Warning Edits</a><br/>
+       <a href="#" id="openHardDetails" data-toggle="modal">Error Edits</a><br/>
+       <a href="#" id="openSoftDetails" data-toggle="modal">Warning Edits</a><br/>
+ 
+       
+      <!-- Hard Edits messages display -->
+      <div id="myHardEditsModal" class="errorDetailsPopup draggable resizable modal" tabindex="-1">
+        <div class="resizePush">
+          <div class="errorDetailsPopupHeader dragHandle">
+               <button type="button" class="closeModal close">x</button>
+               The following are page edits/errors on this page.
+          </div>
+          <div class="errorDetailsPopupBody">
+             
+              <!-- Hard Edits -->
+              <div class="errorMsgSection">
+                <div class="errorMsgHeader dragHandle">
+                  <div class="errorIcon"></div>
+                  <div class="errorMsgHeaderText">
+                        <b>ERROR!</b>
+                  </div>
+                </div>
+                 <div class="errorMsgBody">
+                  
+                  <!--  This is where you put hard edit details -->
+                  <ul class="hardErrorMsgDetails">
+                     <li class="errorMsg">Atleast one driver must be a principal operator.Atleast one driver must be a principal operator.Atleast one driver must be a principal operator. <a href="#">Fix Now</a></li>
+                     <li class="errorMsg">Driver One License Number must be entered. <a href="#">Fix Now</a></li>
+                     <li class="errorMsg">Atleast one driver must be a principal operator. <a href="#">Fix Now</a></li>
+                  </ul>
+                  
+                </div> 
+              </div>
+              
+          </div>
+        </div> 
+         <div class="errorMsgFooter dragHandle">
+           <a href="#" class="closeModal">Close</a>
+        </div>
+      </div>  
+      
+      <!-- Soft Edits messages display -->
+      <div id="mySoftEditsModal" class="errorDetailsPopup draggable resizable modal" tabindex="-1">
+         <div class="resizePush">
+          <div class="errorDetailsPopupHeader dragHandle">
+              <button type="button" class="closeModal close">x</button>
+               The following are page edits/errors on this page.
+          </div>
+          <div class="errorDetailsPopupBody">
+             
+              <!-- SoftEdits -->
+              <div class="errorMsgSection">
+                <div class="errorMsgHeader dragHandle">
+                  <div class="warningIcon"></div>
+                  <div class="errorMsgHeaderText">
+                        <b>WARNING!</b>
+                  </div>
+                </div>
+                 <div class="errorMsgBody">
+                  
+                  <!--  This is where you put soft edit details -->
+                  <ul class="softErrorMsgDetails">
+                     <li class="errorMsg">Atleast one driver must be a principal operator.Atleast one driver must be a principal operator.Atleast one driver must be a principal operator. <a href="#">Fix Now</a></li>
+                     <li class="errorMsg">Driver One License Number must be entered. <a href="#">Fix Now</a></li>
+                     <li class="errorMsg">Atleast one driver must be a principal operator. <a href="#">Fix Now</a></li>
+                  </ul>
+                  
+                </div> 
+              </div>
+          </div>
+        </div> 
+         <div class="errorMsgFooter dragHandle">
+           <a href="#" class="closeModal">Close</a>
+        </div>
+      </div>
+     
+      
+      <!-- Mixture of Soft and Hard Edits messages display -->
+      <div id="myDetailsModal" class="errorDetailsPopup draggable resizable modal" tabindex="-1">
+         <div class="resizePush">
+          <div class="errorDetailsPopupHeader dragHandle">
+               <button type="button" class="closeModal close">x</button>
+               The following are page edits/errors on this page.
+          </div>
+          <div class="errorDetailsPopupBody">
+             
+               <!-- Hard Edits -->
+              <div class="errorMsgSection">
+                <div class="errorMsgHeader dragHandle">
+                  <div class="errorIcon"></div>
+                  <div class="errorMsgHeaderText">
+                        <b>ERROR!</b>
+                  </div>
+                </div>
+                 <div class="errorMsgBody">
+                  
+                  <!--  This is where you put hard edit details -->
+                  <ul class="hardErrorMsgDetails">
+                     <li class="errorMsg">Atleast one driver must be a principal operator.Atleast one driver must be a principal operator.Atleast one driver must be a principal operator. <a href="#">Fix Now</a></li>
+                     <li class="errorMsg">Driver One License Number must be entered. <a href="#">Fix Now</a></li>
+                     <li class="errorMsg">Atleast one driver must be a principal operator. <a href="#">Fix Now</a></li>
+                      <li class="errorMsg">Atleast one driver must be a principal operator.Atleast one driver must be a principal operator.Atleast one driver must be a principal operator. <a href="#">Fix Now</a></li>
+                     <li class="errorMsg">Driver One License Number must be entered. <a href="#">Fix Now</a></li>
+                     <li class="errorMsg">Atleast one driver must be a principal operator. <a href="#">Fix Now</a></li>
+                      <li class="errorMsg">Atleast one driver must be a principal operator.Atleast one driver must be a principal operator.Atleast one driver must be a principal operator. <a href="#">Fix Now</a></li>
+                     <li class="errorMsg">Driver One License Number must be entered. <a href="#">Fix Now</a></li>
+                     <li class="errorMsg">Atleast one driver must be a principal operator. <a href="#">Fix Now</a></li>
+                      <li class="errorMsg">Atleast one driver must be a principal operator.Atleast one driver must be a principal operator.Atleast one driver must be a principal operator. <a href="#">Fix Now</a></li>
+                     <li class="errorMsg">Driver One License Number must be entered. <a href="#">Fix Now</a></li>
+                     <li class="errorMsg">Atleast one driver must be a principal operator. <a href="#">Fix Now</a></li>
+                  </ul>
+                  
+                </div> 
+              </div>
+              
+              <!-- SoftEdits -->
+              <div class="errorMsgSection">
+                <div class="errorMsgHeader dragHandle">
+                  <div class="warningIcon"></div>
+                  <div class="errorMsgHeaderText">
+                        <b>WARNING!</b>
+                  </div>
+                </div>
+                 <div class="errorMsgBody">
+                  
+                  <!--  This is where you put soft edit details -->
+                  <ul class="softErrorMsgDetails">
+                     <li class="errorMsg">Atleast one driver must be a principal operator.Atleast one driver must be a principal operator.Atleast one driver must be a principal operator. <a href="#">Fix Now</a></li>
+                     <li class="errorMsg">Driver One License Number must be entered. <a href="#">Fix Now</a></li>
+                     <li class="errorMsg">Atleast one driver must be a principal operator. <a href="#">Fix Now</a></li>
+                  </ul>
+                  
+                </div> 
+              </div>
+              
+              
+          </div>
+        </div> 
+         <div class="errorMsgFooter dragHandle">
+           <a href="#" class="closeModal">Close</a>
+        </div>
+      </div>
+      
+      <br/><br/>
+    
+        
+    <!-- Error Modal - Error Messaging Example -->
+    <h1>Error Modal - UW Error Messaging</h1><p/>
+      <a href="#" id="openErrorModal">Error Modal - UW Error Messaging</a><br/><br/>
+      <div id="myErrorModal" class="alertModal modalSmallFooter modal draggable resizable" data-backdrop="static" tabindex="-1">
+        <div class="resizePush">
+          <div class="errorModal">
+                <div class="closeModal close" data-dismiss="modal">x</div>
+                <div class="alertModalHeader dragHandle">
+                  <b>The Applicant is not eligible for coverage for the following reason(s):</b>
+                </div>
+                <div class="errorModalBody">
+                   <!--  where you put error messages -->
+                   <ul class="hardErrorMsgList">
+                     <li class="errorMsg">Message #1</li>
+                     <li class="errorMsg">Message #2</li>
+                     <li class="errorMsg">Message #3</li>
+                   </ul>
+                </div>   
+          </div>
+        </div>
+        <div class="errorMsgFooter dragHandle">
+           <a href="#" class="closeModal" data-dismiss="modal">Close</a>
+        </div>
+      </div> 
+      <br/><br/>
+      
+    <!-- Error Modal -->
+    <h1>Error Modal - Other Example</h1><p/>
+      <a href="#" id="openOtherErrorModal">Error Modal</a><br/><br/>
+      <div id="myOtherErrorModal" class="alertModal modal draggable resizable" data-backdrop="static" tabindex="-1">
+        <div class="resizePush">
+          <div class="errorModal">
+                <div class="closeModal close" data-dismiss="modal">x</div>
+                <div class="alertModalHeader dragHandle">
+                  <b>ERROR!</b>
+                </div>
+                <div class="alertModalBody">
+                   <!--  This is where your content goes -->
+                   This is a error message
+                </div>  
+          </div>
+        </div>
+        <div class="modal-footer dragHandle">
+           <button class="aiBtn primaryBtn">Fix Now</button>
+           <button class="aiBtn secondaryBtn">Fix Later</button>
+           <a href="#" class="closeModal" data-dismiss="modal">Close</a>
+        </div>
+      </div> 
+      <br/><br/>
+      
+    <!-- Warning Modal - Error Messaging Handling -->
+    <h1> Warning Modal - UW Messaging Example</h1><p/>
+      <a href="#" id="openWarningModal">Warning Modal - UW Messaging Example</a><br/><br/>
+      <div id="myWarningModal" class="alertModal modalSmallFooter modal draggable resizable" data-backdrop="static" tabindex="-1">
+        <div class="resizePush">
+          <div class="warningModal">
+                <div class="closeModal close" data-dismiss="modal">x</div>
+                <div class="alertModalHeader dragHandle">
+                  <b>Upon submission, the application will be referred for the underwriter review for the following reason(s):</b>
+                </div>
+                <div class="warningModalBody">
+                   <!--  where you put error messages -->
+                   <ul class="softErrorMsgList">
+                     <li class="errorMsg">Message #1</li>
+                     <li class="errorMsg">Message #2</li>
+                     <li class="errorMsg">Message #3</li>
+                     <!--  Enter notes part -->
+                     <li class="errorMsg"><b>Please enter any additional information for the underwriter in the "Notes". If applicable.</b></li>
+                   </ul>
+                </div>   
+          </div>
+        </div>
+        <div class="errorMsgFooter dragHandle">
+           <a href="#" class="closeModal" data-dismiss="modal">Close</a>
+        </div>
+      </div> 
+      <br/><br/>
+      
+      <h1> Warning Modal - Other Example</h1><p/>
+      <a href="#" id="openOtherWarningModal">Warning Modal</a><br/><br/>
+      <div id="myOtherWarningModal" class="alertModal modal draggable resizable" data-backdrop="static" tabindex="-1">
+        <div class="resizePush">
+          <div class="warningModal">
+                <div class="closeModal close" data-dismiss="modal">x</div>
+                <div class="alertModalHeader dragHandle">
+                  <b>WARNING!</b>
+                </div>
+                <div class="alertModalBody">
+                   <!--  This is where your content goes -->
+                  This is a warning message
+                </div>
+          </div>
+        </div>
+        <div class="modal-footer dragHandle">
+           <button class="aiBtn primaryBtn">Fix Now</button>
+           <button class="aiBtn secondaryBtn">Fix Later</button>
+           <a href="#" class="closeModal" data-dismiss="modal">Close</a>
+        </div>
+      </div> 
+      <br/><br/>
+      
+      
+    <!-- Confirmation Modal -->
+    <h1>Confirmation Modal</h1><p/>
+       <a href="#" id="openConfirmModal">Confirmation Modal</a><br/><br/>
+       
+      <div id="myConfirmModal" class="alertModal modal draggable resizable" data-backdrop="static" tabindex="-1">
+        <div class="resizePush">
+          <div class="confirmModal">
+                <div class="closeModal close" data-dismiss="modal">x</div>
+                <div class="alertModalHeader dragHandle">
+                  <b>SUCCESS!</b>
+                </div>
+                <div class="alertModalBody">
+                   <!--  This is where your content goes -->
+                  This is a successful message
+                </div>
+          </div>
+        </div>
+        <div class="modal-footer dragHandle">
+           <button class="aiBtn primaryBtn">Primary</button>
+           <button class="aiBtn secondaryBtn">Secondary</button>
+           <a href="#" class="closeModal" data-dismiss="modal">Close</a>
+        </div>
+      </div>
+      <br/><br/>
+      
+    <!-- Informational Modal -->
+    <h1>Informational Modal</h1><p/>
+       <a href="#" id="openInfoModal">Informational Modal</a><br/><br/>
+       
+      <div id="myInfoModal" class="alertModal modal draggable resizable" data-backdrop="static" tabindex="-1">
+        <div class="resizePush">
+          <div class="infoModal">
+                <div class="closeModal close" data-dismiss="modal">x</div>
+                <div class="alertModalHeader dragHandle">
+                  <b>INFORMATION!</b>
+                </div>
+                <div class="alertModalBody">
+                  <!--  This is where your content goes -->
+                  This is a informational message<br/>
+                </div>
+          </div>
+        </div>
+        <div class="modal-footer dragHandle">
+           <button class="aiBtn primaryBtn">Ok</button>
+           <a href="#" class="closeModal" data-dismiss="modal">Cancel</a>
+        </div>
+      </div>
+      <br/><br/>
+      
+    <!-- Tip Modal -->
+    <h1>Tip Modal</h1><p/>
+       <a href="#" id="openTipModal">Tip Modal</a><br/><br/>
+       
+      <div id="myTipModal" class="alertModal modal draggable resizable" data-backdrop="static" tabindex="-1">
+        <div class="resizePush">
+          <div class="tipModal">
+                <div class="closeModal close" data-dismiss="modal">x</div>
+                <div class="alertModalHeader dragHandle">
+                  <b>TIP!</b>
+                </div>
+                <div class="alertModalBody">
+                  <!--  This is where your content goes -->
+                  This is a informational message
+                </div>
+          </div>
+        </div>
+        <div class="modal-footer dragHandle">
+           <button class="aiBtn primaryBtn">Primary</button>
+           <button class="aiBtn secondaryBtn">Secondary</button>
+           <a href="#" class="closeModal" data-dismiss="modal">Close</a>
+        </div>
+      </div>
+      <br/><br/>  
+    </div>  
+  </body>
+</html>

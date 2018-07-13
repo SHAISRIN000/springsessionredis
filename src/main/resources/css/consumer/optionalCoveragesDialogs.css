@@ -1,0 +1,393 @@
+/* popups common */
+.optCovPopClose_Icon{
+	cursor: pointer;
+	border: 0;
+	float: right;
+	margin-top: 10px!important;	
+	margin-right: 5px!important;	
+	background: inherit;
+}
+
+.Tick_box_tile_amount_checked{
+	height: 100%;
+    width: 20%;
+}
+.Tick_box_tile_amount_checked label{
+	padding: 41% 0 0 23%;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+.optional-coverages-popup-common{
+	font-size: 16px;
+	font-family: 'ArialMT', 'Arial';
+	box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(215, 215, 215, 1);
+    border-radius: 3px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;    
+    height: inherit;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-style: normal;
+    color:#4D4D4F;  
+}
+.optionalCovs-Popup-wordbreak{
+	resize:vertical;
+	word-wrap:break-word;
+}
+
+/*schedule Personal Property*/
+.schPropDialogMobile {
+	font-size: 16px;
+	font-family: 'ArialMT', 'Arial';
+	box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(215, 215, 215, 1);
+    border-radius: 3px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;    
+    height: 606px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-style: normal;
+    color:#4D4D4F;
+    z-index: 9999;    
+    position: absolute;
+}
+.schl_Add_Form {
+	padding-left: 10px;
+	background-color: rgba(242, 242, 242, 1);
+	padding-top: 20px;	
+	overflow: hidden;
+	font-size: 16px!important;
+	padding: 0px!important;
+	/*height: 563px;*/
+	height: inherit;
+}
+.schl_Add_Form_limit_input {
+	height:36px;
+	width:132px;
+	margin-bottom:20px;	
+}
+.schl_Add_Form_limit_input input {
+	font-size: 14px; 
+	color: #333;
+	height:inherit;
+	width:100%;
+}
+.schl_Add_Form_decs_input {
+	height:142px;
+	width:270px;
+	margin-bottom:20px;
+}
+.schl_Add_Form_decs_input input {
+	font-size: 14px; 
+	color: #333;
+	height:inherit;
+	width:inherit;
+}
+.schPropDialogContent {
+	background: rgba(255, 255, 255, 0)!important;
+	color: #424242!important;;
+}
+.schl_Add_Form_Save_Finish_Button input {
+	width: 80%;
+	height: 35px;
+	background: inherit;
+	background-color: #ff6f2a;
+	border: none;
+	border-radius: 3px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin-bottom:10px;
+	box-shadow: 5px 3px 1px #888888;
+	font-weight:700;
+}
+
+.schl_Add_Form_Save_Finish_Button input:hover{
+	background-color: #ff5808;
+}
+
+.schl_Add_Form_Save_Finish_Button input:focus{
+	outline:0;
+}
+
+.schl_Add_Form_Add_Another_Button input {
+	width: 80%;
+    height: 35px;
+    background: inherit;
+    background-color: #ff6f2a !important;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: none;
+    font-size: 16px;
+    color: #fff;
+    line-height: 20px;
+    margin-bottom:25px;
+    box-shadow: 5px 3px 1px #888888;
+    border:none;
+    font-weight:700;
+}
+
+.schl_Add_Form_Add_Another_Button input:disabled{
+	color: #696969 !important;
+}
+
+.schl_Add_Form_Add_Another_Button input:hover{
+	background-color: #ff5808;
+}
+
+.schl_Add_Form_Add_Another_Button input:focus{
+	outline:0;
+}
+.schl_Add_Form_Delete_Button input {
+	width: 80%;
+    height: 35px;
+    background: inherit;
+    background-color: #B90202;
+    border: none;
+    border-radius: 3px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    box-shadow: 5px 3px 1px #888888;
+}
+
+.schl_Add_Form_Delete_Button input:focus{
+	outline:0;
+}
+
+.safeVaultJewelry{
+	padding: initial;
+    margin-bottom: 13px;
+}
+
+/* water craft Dialog */
+.watercraftPopup {
+	font-size: 16px;
+	font-family: 'ArialMT', 'Arial';
+	box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(215, 215, 215, 1);
+    border-radius: 3px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;    
+    height: inherit;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-style: normal;
+    color:#4D4D4F;    
+    bottom: auto;
+    right: 555px;
+    max-height: 650px;   
+    position:fixed!important;
+    top: 50%!important;
+    width: 90%!important;
+    left: 47%!important;
+    max-width:none;
+}
+
+#optCoverage_WATERCFT_Popup  select{
+	width: 155px;
+}
+.optCovPopClose_Icon_WATERCFT{
+	cursor: pointer;
+	border: 0;
+	float: right;
+	margin: 10px!important;	
+	background: inherit;
+}
+.optCoverage_Popup_Header{
+	text-align: -webkit-center;
+    padding: 10px!important;
+}
+.popupContentBackGround{
+	background: rgba(255, 255, 255, 1)!important;
+    color: #424242!important;
+}
+.deleteButtonBGColor{
+	background-color: rgba(255, 0, 0, 1);
+}
+.watercft_Description{
+	resize: vertical;
+    word-wrap: break-word;
+}
+.watercft_Length{
+	resize: vertical;
+    word-wrap: break-word;
+    width: 100px!important;
+    height: 34px!important;
+    min-width: 50px!important;
+    border-radius: 4px!important;
+}
+.watercft_NavDate {
+	width: 75px!important;
+    min-width: 75px!important;
+}
+
+/* Snow Mobile Dialog */
+.snowMobilePopup {	   
+    bottom: auto;
+    right: 555px;
+    max-height: 650px;   
+    position:fixed!important;
+    top: 50%!important;
+    width: 60%!important;
+    left: 47%!important;
+    min-width: 60%;
+    max-width:none;
+}
+.popupAddressTable td[class^="fieldCol-short"] input{
+	margin: 0 !important;
+}
+
+/* Other insured location Dialog */
+.otherInsuredLocationPopup {	   
+    bottom: auto;
+    right: 555px;
+    max-height: 650px;   
+    position:fixed!important;
+    top: 50%!important;
+    width: 60.5%!important;
+    left: 47%!important;
+    min-width: 60.5%;
+    max-width:none;
+}
+/*business Pursuits Dialog*/
+.businessPursuitsPopup {	   
+    bottom: auto;
+    right: 555px;
+    max-height: 650px;   
+    position:fixed!important;
+    top: 50%!important;
+    width: 37.5%!important;
+    left: 47%!important;
+    min-width: 37.5%!important;
+    max-width:none!important;
+}
+/* Loss assesment popup */
+.lossAssesmentPopup {	   
+    bottom: auto;
+    right: 555px;
+    max-height: 650px;   
+    position:fixed!important;
+    top: 50%!important;
+    width: 71%!important;
+    left: 47%!important;
+    min-width: 37%!important;
+    
+}
+.schl_Add_Form_Overflow {
+    padding: 2% 0 0 2% !important;
+    background-color: rgba(242, 242, 242, 1);
+    font-size: 16px!important;
+    
+ }
+ 
+ /* Loss assesment Earthquakepopup */
+.lossAssesmentEarthquakePopup {	   
+    bottom: auto;
+    right: 555px;
+    max-height: 650px;   
+    position:fixed!important;
+    top: 50%!important;
+    width: 100%!important;
+    left: 47%!important;
+    min-width: 37%!important;
+   /* max-width:none!important;*/
+}
+/* ho3 Other structures */
+.optCoverage_OTHR_STRUP_Popup{
+	right: 555px;    
+    left: 47%!important;
+    min-width: 40%;
+}
+.optCoverage_INC_OCPNCY_Popup{
+	right: 555px;   
+    width: 72%!important;
+    left: 47%!important;
+    min-width: 70%!important;
+    max-width:none!important;
+}
+.optCoverage_OFF_PRM_SP_Popup{
+	right: 555px;
+    width: 82%!important;
+    left: 47%!important;
+    min-width: 82%!important;
+    max-width: none!important;
+}
+.optCoverage_STRUC_RENT_Popup{
+	right: 555px;
+    width: 37.5%!important;
+    left: 47%!important;
+    min-width: 37.5%!important;
+    max-width: none!important;
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	#schPropDialog, #optCoverage_WATERCFT_Popup, #optCoverage_OWN_SW_Popup, #optCoverage_OTHR_LOC_P_Popup, #optCoverage_RES_REN_P_Popup, 
+	#optCoverage_BUS_PUR_Popup, #optCoverageLA1Popup, #optCoverageLAQPopup, #optCoverage_OTHR_STRUP_Popup, #optCoverage_INC_OCPNCY_Popup,
+	#optCoverage_OFF_PRM_SP_Popup, #optCoverage_STRUC_RENT_Popup{
+		display:none!important;
+	}
+	input#WATERCFT_NavPrd_From{
+		width: 80%!important;
+	    min-width: 20%!important;
+	    height: 34px!important;
+	    max-height : 34px!important;
+	    border-radius: 4px;
+       	border: 1px solid #ccc;
+	}
+	input#WATERCFT_NavPrd_To{
+		width: 80%!important;
+	    min-width: 20%!important;
+	    height: 34px!important;
+	    max-height : 34px!important;
+	    border-radius: 4px;
+       	border: 1px solid #ccc;
+	}
+	input#OTHR_STRUP_Limit{
+		width: 80%!important;
+	    min-width: 20%!important;
+	    height: 34px!important;
+	    max-height : 34px!important;
+	    border-radius: 4px;
+       	border: 1px solid #ccc;
+	}
+	input#OFF_PRM_SP_Limit{
+		width: 80%!important;
+	    min-width: 20%!important;
+	    height: 34px!important;
+	    max-height : 34px!important;
+	    border-radius: 4px;
+       	border: 1px solid #ccc;
+	}
+	input#STRUC_RENT_Limit{
+		width: 80%!important;
+	    min-width: 20%!important;
+	    height: 34px!important;
+	    max-height : 34px!important;
+	    border-radius: 4px;
+       	border: 1px solid #ccc;
+	}
+	
+
+	
+}

@@ -1,0 +1,166 @@
+/** The padding-bottom is not appropriate for the Welcome page **/
+#mainPage{
+	margin-top: 10px;
+	margin-left: 9px;
+	margin-right: 9px;
+}
+.messagesHeader{
+	font-size:14px;
+	font-weight: bold;
+	line-height: 35px !important;
+    height: 35px !important;
+    background-color: rgb(102, 102, 102) !important;
+    color: rgb(255, 255, 255);
+    border-color: rgb(102, 102, 102);
+}
+.rowHeaderTable{
+	width: 100%;
+}
+.materialsTitle {
+	color: #007ac9;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: bold;
+	margin-left: 30px;
+}
+.messageTitle{
+	margin-left: 5px;
+	font-size: 13px;
+	font-weight: normal;
+}
+.elliptic{
+	width: 95%;
+	max-width: 100%;
+	height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display:inline-block;
+    line-height: 22px;
+}
+.fieldLabel{
+	font-weight: bold;
+	padding-left: 30px;
+}
+.formTable{
+	width: 100%;
+	table-layout: fixed;
+}
+.popover.right{
+	margin-left: 0px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	font-weight: bold;
+}
+.titleField{
+	text-indent: 5px;
+    width: 95%!important;
+    min-width: 95%!important;
+    max-width: 95%!important;
+    height: 21px!important;
+    min-height: 21px!important;
+    max-height: 21px!important;
+    line-height: 21px!important;
+}
+.dateField{
+	color: #000000 !important;
+	text-indent: 5px;
+    width: 205px!important;
+    min-width: 205px!important;
+    max-width: 205px!important;
+    height: 21px!important;
+    min-height: 21px!important;
+    max-height: 21px!important;
+    line-height: 21px!important;
+}
+.shorter{
+	height: 88px!important;
+}
+.mce-charcount {
+    position: relative;
+    top: 0;
+    right: 0;
+    padding: 8px;
+}
+input[type=checkbox] {
+ 	-ms-transform: scale(1.3); /* IE */
+	-moz-transform: scale(1.3); /* FF */
+	-webkit-transform: scale(1.3); /* Safari and Chrome */
+	-o-transform: scale(1.3); /* Opera */
+  	margin-left: 2px !important;
+}
+#landingContent{
+    margin-top: 100px;
+    *margin-top: 150px;
+    margin-left: 10px;
+    padding-top: 30px;
+    *padding-top: 53px;
+    *padding-top: 73px;
+}
+label{
+	font-size: 12px;
+}
+table, th, td {
+/*     border: 1px solid black; */
+}
+#fixedPageHeader{
+    margin: 130px 0 0 0;
+}
+.globalHeader {
+    background-position: 0 -30px;
+    height: 165px;
+}
+.links a {
+    color:white;
+}
+hr.vertical{
+   width: 0px;
+   height: 224px;
+   border: 1px solid #6B6C6D;
+   margin-left: 34px;
+   margin-right: 21px;
+} 
+#footer {
+	padding-top: 10px;
+}
+.footerLink {
+     font-size: 12px;
+     line-height: 20px;
+}
+.disabled{
+	color: #000000 !important;
+	font-weight: bold !important;
+}
+.links {
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4a4948), to(#323537));
+    background-image: -webkit-linear-gradient(top, #4a4948, #323537);
+    background-image: -o-linear-gradient(top, #4a4948, #323537);
+    background-image: linear-gradient(to bottom, #4a4948, #323537);
+    background-image: -moz-linear-gradient(top, #4a4948, #323537);
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#4a4948', endColorstr='#323537');
+    color:white;
+    padding: 0 5px 0 23px;
+    margin-top: 20px;
+    margin-left: -2px;
+}
+.justified:before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+.justified{
+	text-align: justify;
+}
+.justified:after{
+    content: "";
+    display: inline-block;	
+    width: 100%;
+}
+
+#messageDialog{
+	max-width: 700px;
+	min-width: 500px;
+	max-height: 500px;
+}

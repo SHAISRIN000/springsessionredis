@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+/* forms actions */
+#formActionsList{
+	margin-left: 50px;
+	margin-top: 5px;
+	width: 470px;
+	border: 1px solid #d9d9d9;
+	text-align: left;
+	padding: 10px 4px 4px 4px;
+}
+
+ul#formActions li{
+	vertical-align: middle;
+	margin-left: 50px;
+}
+
+li#chkAllFormsLink{
+	margin-left: -20px !important;
+}
+
+/* forms table */
+table#tblForms{
+	width: 480px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+tr.formsRow{
+	height: 20px;
+}
+
+td.chkBoxCol{
+	width: 20px;
+}
+
+td.formsDescCol{
+	vertical-align: middle;
+	
+}
+
+/* eSignature Email Form */
+#esigForm{
+	width: 600px;
+	border: 1px solid #d9d9d9;
+	text-align: left;
+	padding: 15px 7px 4px 7px;
+}
+
+table#tblEsigEmail{
+	margin-top: 13px;
+}
+
+tr.emailRow{
+	height: 15px;
+}
+
+td.emailLbl{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	vertical-align: middle;
+}
+
+td.emailFld{
+	padding-left: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	vertical-align: middle;
+	
+}
+
+td.nameLbl{
+	padding-top: 5px;
+	padding-bottom: 0px;
+	vertical-align: middle;
+	height: 20px;
+}
+
+td.nameLblSp{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 9px;
+	margin-bottom: 0px;
+	vertical-align: bottom;
+	height: 11px
+}
+
+input {
+    text-indent: 5px;
+    color: #333333;
+}
+
+input.width150{
+    width: 160px !important;
+    font-size: 11px;
+}
+
+input.width250{
+    width: 265px !important;
+    font-size: 11px;
+}
+
+input.width455{
+    width: 466px !important;
+    font-size: 11px;
+}
+
+textarea.width455{
+    width: 455px !important;
+    font-size: 11px;
+}
+
+input.width20{
+    width: 20px !important;
+    font-size: 11px;
+}
+
+input[type="text"]{
+	height:20px;
+}
+
+/* input text field */
+
+input.tabInput{
+    text-indent: 5px;
+    text-align: middle;
+    width: 230px;
+    min-width: 230px; 
+    max-width: 230px;
+    height: 21px !important;
+    min-height: 21px !important;
+    max-height: 21px !important;
+    padding: 0 !important;
+    margin: 0  !important;
+    font-size: 11px;
+    line-height: 21px !important;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    *overflow: visible;
+}
+
+.padLeft{   
+    padding-left:5px;
+    display: inline-block;
+}
+
+.padLeft{{   
+    padding-left:15px;
+    display: inline-block;
+}
+.padRight{   
+    padding-right:5px;
+    display: inline-block;
+}
+
+.padRight15{   
+    padding-right:15px;
+    display: inline-block;
+}
+.padTop15{   
+    padding-top:15px;
+    display: inline-block;
+}
+
+
+#message{
+	width: 455px;
+	font-size: 11px;
+	height: 100px;
+	margin-bottom: 21px;
+}
+
+#previousBtn{
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.cancelESignEmail{
+	float: right;
+	display: inline-block;
+	*display: inline;
+}

@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/* grid column headers */
+#gridHeader td#name{
+    *width: 138px;
+    max-width: 138px;
+    min-width: 138px; 
+    padding-left: 12px;
+}
+
+#gridHeader td#residence{
+   *width: 155px;
+    max-width: 155px;
+    min-width: 155px;
+    padding-left: 5px; 
+}
+
+#gridHeader td#policyNumber{
+	*width: 152px;
+	max-width: 152px;
+	min-width: 152px;
+}
+
+#gridHeader td#dateOfLoss{
+	*width: 90px;
+	max-width: 90px;
+	min-width: 90px; 
+}
+
+#gridHeader td#claimNumber{
+    *width: 108px;
+    max-width: 108px;
+    min-width: 108px; 
+    padding-left: 2px;
+}
+
+#gridHeader td#claimStatus{
+	*width: 113px;
+	max-width: 113px;
+	min-width: 113px; 
+	padding-left: 5px;
+}
+
+#gridHeader td#claimType{
+    *width: 111px;
+    max-width: 111px;
+    min-width: 111px;
+    padding-left: 6px; 
+}
+
+#grid td.residence{
+    line-height: 14px !important;
+}
+
+
+/* Override Select Box It styles for Select Box plugin */
+.selectboxit-text, ul.selectboxit-options {
+    font-weight: normal !important;
+}
+
+ul.selectboxit-options li:hover{
+    background-color: #007ac9 !important;
+}
+
+ul.selectboxit-options li:hover > a, ul.selectboxit-options a:hover{
+    color: #ffffff !important; 
+    text-decoration: none !important;
+}
+
+ul.selectboxit-options a {
+    color: #333333 !important;
+}

@@ -1,0 +1,472 @@
+table.accVioTableAddButton{
+	WIDTH:800px !important;
+	MIN-WIDTH: 800px !important;
+    MAX-WIDTH: 800px !important;
+}
+
+table.accVioTableAddRow{
+	WIDTH:800px !important;
+	MIN-WIDTH: 800px !important;
+    MAX-WIDTH: 800px !important;
+}
+
+/*.manualView{
+	WIDTH:800px !important;
+	MIN-WIDTH: 800px !important;
+    MAX-WIDTH: 800px !important;
+    margin-bottom: 0px;
+	border: 1px solid #d3d3d3;
+	background-color: #fff;
+	border-radius: 4px;
+	 -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}*/
+
+.manualView{
+    WIDTH:800px !important;
+    MIN-WIDTH: 800px !important;
+    MAX-WIDTH: 800px !important;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+}
+
+.accVioTable{
+	WIDTH:800px !important;
+	MIN-WIDTH: 800px !important;
+    MAX-WIDTH: 800px !important;
+    margin-bottom: 0px;
+	/* background-color: #fff;*/
+	border-radius: 4px;
+	 -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+.table {
+	margin-bottom: 20px;
+	border: 1px solid #d3d3d3;
+	background-color: #fff;
+	border-radius: 4px;
+	 -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+
+.manualView td {
+	padding: 4px;
+	line-height: 10px;
+	text-align: left;
+	vertical-align: center;
+	border-top: 1px solid #d3d3d3 !important;
+	/*font-weight: bold; */
+	font-size: 11px !important;
+	font-style:Arial !important;
+	border-right: 1px solid #d3d3d3 !important;
+}
+
+.manualView th {
+	font-weight: bold;
+	background-color: #666;
+	font-size: 12px;
+	word-wrap: break-word !important;
+	line-height: 10px !important;
+	height : 15px !important;
+	text-align : left;
+}
+
+.deleteColumnAccVio{
+	WIDTH:10px !important;
+	MIN-WIDTH: 10px !important;
+    MAX-WIDTH: 10px !important;
+}
+
+.deleteColumnAccVioNonEditable{
+	WIDTH:10px !important;
+	MIN-WIDTH: 10px !important;
+    MAX-WIDTH: 10px !important;
+}
+
+.assignedDriverAccVio{
+	WIDTH:175px !important;
+	MIN-WIDTH: 175px !important;
+    MAX-WIDTH: 175px !important;
+   	word-wrap: break-word !important
+}
+
+/* .driverOnReportsAccVio{
+width:100px !important;
+} */
+
+.lossDateAccVio{
+	WIDTH:110px !important;
+	MIN-WIDTH: 110px !important;
+	MAX-WIDTH: 110px !important;
+}
+
+.lossDateAccVioDateField{
+	WIDTH:80px !important;
+	MIN-WIDTH: 80px !important;
+	MAX-WIDTH: 80px !important;
+}
+
+.typeAccVio{
+	WIDTH:	   75px !important;
+	MIN-WIDTH: 75px !important;
+	MAX-WIDTH: 75px !important;
+}
+
+.descriptionAccVio{
+	WIDTH:	   230px !important;
+	MIN-WIDTH: 230px !important;
+	MAX-WIDTH: 230px !important;
+}
+.stateAccVio{
+	WIDTH:75px !important;
+	MIN-WIDTH: 75px !important;
+	MAX-WIDTH: 75px !important;
+}
+
+.sourceAccVio{
+	WIDTH: 40px !important;
+	MIN-WIDTH: 40px !important;
+	MAX-WIDTH: 40px !important;
+	font-size: 11px !important;
+	font-style: Arial !important;
+}
+
+.excludeReasonAccVio{
+    WIDTH:160px !important;
+    MIN-WIDTH: 160px !important;
+    MAX-WIDTH: 160px !important;
+}
+
+.excludeReasonAccVioSelect{
+    WIDTH:160px !important;
+    MIN-WIDTH: 160px !important;
+    MAX-WIDTH: 160px !important;
+}
+
+.emptyColumnAccVio{
+	WIDTH:160px !important;
+	MIN-WIDTH: 160px !important;
+	MAX-WIDTH: 160px !important;
+}
+
+.driverPartition{
+	background-color:"#000000" !important;
+	bgcolor:"#000000" !important;
+	color:"#000000" !important;
+}
+
+.headerAdjust{
+	font-weight: bold;
+	background-color: rgb(102, 102, 102);
+	color: rgb(255, 255, 255);
+	font-size: 12px;	
+	word-wrap: break-word !important;
+	vertical-align: middle;
+	text-align : left !important;
+	padding-left: 8px;
+}
+
+.rowHeaderClass{
+	background-color: rgb(224, 224, 224) !important;
+	color: rgb(0, 0, 0) !important;
+	font-size: 12px !important;
+	font-weight: bold;
+	padding-left: 8px;
+}
+
+hr{
+	  margin: 2px 0;
+	  border: 0;
+	  border-top: 1px solid #eeeeee;
+	  border-bottom: 1px solid orange;
+	 * border-color:orange;
+}
+
+.addAccVioBtn{
+  display: inline-block;
+  *display: inline;
+  padding: 10px 5px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 12px;
+  *line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	font-weight: bold;
+	*text-transform: uppercase;
+	min-width: 100px;
+	min-height: 20px;
+	border: 1px solid #57a1ce;
+	/**border: 0 !important;*/
+	*letter-spacing: 1px;
+}
+
+/* .accVioAddSaveCancelBtn{
+  display: inline-block;
+  *display: inline;
+  padding: 10px 10px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 12px;
+  *line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	font-weight: bold;
+	*text-transform: uppercase;
+	min-width: 50x;
+	min-height: 20px;
+	border: 1px solid #57a1ce;
+	*border: 0 !important;
+	*letter-spacing: 1px;
+} */
+
+.blueRow{
+	background-color: #1D9DDB !important;
+}
+
+.orangeColor{
+	background-color: #ffa500 !important;
+}
+
+input.inlineError,
+select.inlineError,
+textarea.inlineError,
+.inlineError {
+    border: 1px solid #cb867b !important;
+}
+
+span.accVioSave{
+ 	float: left;
+    height: 20px;
+    margin-right: 5px;
+    padding-right: 5px;
+    color:#0077bb;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:8px;
+    font-weight:bold;
+    letter-spacing:1px;
+    cursor:pointer;
+    background: transparent url('../images/bg_button_spanbt.png') no-repeat 0 0;
+    display: block;
+}
+
+span.accVioCancel{
+	float: left;
+    height: 20px;
+    margin-right: 5px;
+    padding-right: 5px;
+    color:#0077bb;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:8px;
+    font-weight:bold;
+    letter-spacing:1px;
+    cursor:pointer;
+ 	 background: transparent url('../images/bg_button_spanbt.png') no-repeat 0 0;
+    display: block;
+ }
+
+span.addSelected{
+ float: left;
+    height: 20px;
+    margin-right: 5px;
+    padding-right: 5px;
+    color:#0077bb;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:8px;
+    font-weight:bold;
+    letter-spacing:1px;
+    cursor:pointer;
+     background: transparent url('../images/bg_button_spanbt.png') no-repeat 0 0;
+    display: block;
+}
+
+span.addAccVio{
+ float: left;
+    height: 20px;
+    margin-right: 5px;
+    padding-right: 5px;
+    color:#0077bb;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10px;
+    font-weight:bold;
+    letter-spacing:1px;
+    cursor:pointer;
+     background: transparent url('../images/bg_button_spanbt.png') no-repeat 0 0;
+    display: block;
+}
+
+span.cancelSelected{
+ float: left;
+    height: 20px;
+    margin-right: 5px;
+    padding-right: 5px;
+    color:#0077bb;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:8px;
+    font-weight:bold;
+    letter-spacing:1px;
+    cursor:pointer;
+    background: transparent url('../images/bg_button_spanbt.png') no-repeat 0 0;
+    display: block;
+}
+
+span.widthDD100{ 
+        width: 100px !important; 
+        max-width: 100px !important; 
+        min-width : 100px !important;
+}
+
+.addCoApplicantBtn{
+  display: inline-block;
+  *display: inline;
+  padding: 10px 5px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 12px;
+  *line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	font-weight: bold;
+	*text-transform: uppercase;
+	min-width: 100px;
+	min-height: 20px;
+	border: 1px solid #57a1ce;
+	/**border: 0 !important;*/
+	*letter-spacing: 1px;
+}
+
+.primaryBtn{
+  background-color: #3333ff;
+  *background-color: #e6e6e6;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cde8f8), to(#73b9e4));
+  background-image: -webkit-linear-gradient(top, #cde8f8, #73b9e4);
+  background-image: -o-linear-gradient(top, #cde8f8, #73b9e4);
+  background-image: linear-gradient(to bottom, #cde8f8, #73b9e4);
+  background-image: -moz-linear-gradient(top, #cde8f8, #73b9e4);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#cde8f8', endColorstr='#73b9e4', GradientType=0);
+  background-repeat: no-repeat;
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  border: 1px solid #57a1ce;
+}
+
+.textInblue{
+	font-style: Arial Regular;
+	font-size: 12px;
+	color: #0EBFE9;
+	cursor: pointer;
+}
+
+.textInblueDeleteDriver{
+	font-style: Arial Regular;
+	font-size: 11px;
+	color: #0EBFE9;
+	cursor: pointer;
+}
+
+.yesNoModal{
+	width:350px !important;
+}
+.viewDeletedAccVio{
+	width:800px !important;
+}
+
+.anyAccViolast6yrs{
+	font-size:11px !important;
+	font-style:Arial !important;
+	vertical-align: middle !important;
+	
+}
+.sectionSpacer{
+	float: left !important; 
+	list-style: none !important; 
+	height:8px !important;
+}
+.inSectionSpacer{
+	float: left !important; 
+	list-style: none !important; 
+	height:4px !important;
+}
+
+.HeaderRowColWidth{
+	height : 22px !important;
+	min-height : 22px !important;
+	background-color: #CCCCCC;
+	font-size:22px !important;
+	font-style:Arial !important;
+	color:#333333 !important;
+	vertical-align: middle !important;
+	padding-left: 8px;
+	
+}
+
+.smallRowBtn{
+    min-width:40px !important;
+}
+
+.driverOnReportSpan{
+    display:inline-block;
+    padding-top:5px;
+    padding-bottom:1px;
+}
+
+.convictionDtSpan{
+    display:inline-block;
+    padding-top:5px;
+    padding-bottom:1px;
+}
+
+/* Fixes for reducing gap between tab bottom and Top Container & Section Title Top Margin */
+#mainContent {
+    padding-top: 0;
+    margin-top: 147px;
+}
+
+.globalHeader {
+    height: 170px;
+    background-position: 0 -25px;
+}
+
+#formTop {
+    height: 20px;
+    background-position: 0 -10px;
+}

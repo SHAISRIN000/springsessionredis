@@ -1,0 +1,297 @@
+@CHARSET "ISO-8859-1";
+
+.grid-col {
+	  padding-right: 5px !important;
+	  padding-left: 5px !important;
+	}
+table#gridHeader {
+	    margin-top: 14.5px;
+}
+
+
+/* grid column headers */
+#gridHeader td#name {
+	*width: 128px;
+	max-width: 128px;
+	padding-left: 31px;
+	padding-right: 93px;
+}
+
+#gridHeader td#contactInfo {
+	*width: 146px;
+	max-width: 146px;
+	padding-left: 3px;
+	padding-right: 46px;
+}
+
+#gridHeader td#policyNumber {
+	*width: 90px;
+	max-width: 90px;
+	padding-left: 5px;
+	padding-right: 107px;
+}
+
+#gridHeader td#transactionType {
+	*width: 115px;
+	padding-left: 5px;
+	padding-right: 46px;
+}
+
+#gridHeader td#status {
+	*width: 110px;
+	max-width: 110px;
+	    padding-left: 7px;
+    padding-right: 95px;
+}
+
+#gridHeader td#processDate {
+	*width: 95px;
+	max-width: 95px;
+	padding-left: 6px;
+	padding-right: 20px;
+}
+
+#gridHeader td#actionDate {
+	*width: 84px;
+	max-width: 84px;
+	padding-left: 7px;
+    padding-right: 30px;
+}
+
+#gridHeader td#reviewedCheckBox {
+	width: 80px;
+	max-width: 130px;
+	padding-left: 2px;
+	padding-right: 12px;
+}
+
+/* grid column headers for TX Reporting  */
+ #gridHeader td#clientName {
+	width: 43px;
+	padding-left: 30px;
+    padding-right: 90px;
+}
+
+/* TX Reporting */
+
+#gridHeader tr {
+	height: 35px;
+}
+
+#gridHeader td {
+	font-weight: bold;
+	text-align: left;
+	height: 35px;
+	background-color: #666;
+	color: #fff;
+	line-height: 15px;
+	vertical-align: middle;
+	padding: 2px 0px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	border: none;
+	border-style: none;
+}
+
+#grid{
+	    margin: 7px 30px 30px 0px;
+}
+#grid td{
+    font-weight: bold;
+    text-align: left;
+    padding: 2px 2px 2px 6px;
+    color: #555555;
+    line-height: 19px;
+    height: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: #666666;
+    border-right: #CCC solid 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#policygrid td{
+    font-weight: bold;
+    text-align: left;
+    padding: 2px 2px 2px 6px;
+    /*color: #666666;*/
+    color: #555555;
+   /*  line-height: 19px; */
+    height: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border-bottom: #666666; */
+    border-left: #CCC solid 1px;
+    border-right: #CCC solid 1px;
+    /* border-bottom: #CCC solid 1px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+   /*  white-space: nowrap; */
+}
+#policygrid tr{
+    height: 26px !important;
+}
+
+.altRows { 
+    background: #E8E8E8;
+}
+
+/* grid columns */
+#grid td.applicantName{
+    border-left: #CCC solid 1px;
+    /* white-space: nowrap; */
+    padding-left: 25px;
+}
+
+#grid td.reviewClass{
+	 padding : 2px;
+}
+
+#grid td.policyNumber{
+	 white-space: nowrap;
+	  padding-right: 15px;
+}
+
+
+#policygrid td.policyNumber{
+	 white-space: nowrap;
+	  padding-right: 10px;
+}
+#policygrid td.policyName{
+    padding-left: 25px;
+}
+
+#grid td.contactInfoAlerts a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100px;
+    display: block;
+}	
+/* overwrite existing jqgrid classes */
+.ui-jqgrid .selected-row, div.ui-jqgrid .selected-row td {font-style: normal; border-left: 0px none;}
+.ui-jqgrid tr.jqgrow { outline-style: none; }
+.ui-jqgrid tr.jqgroup { outline-style: none; }
+.ui-jqgrid-labels{display: none;}
+
+/* Actions popover */
+.actionsArrow{
+    margin-left: 7px;
+    margin-top: 3px;
+    position: absolute;
+    display: none;
+}
+
+.actionsArrowContactInfo{
+    /* margin-left: 50px; */
+    margin-left: 7px;
+    margin-top: 3px;
+    position: absolute;
+    display: none;
+}
+
+.actionsFlyout {
+    position: absolute;
+    display: none;
+}
+
+.actionList {
+    float: left;
+    margin: 2px 0px;
+    list-style-type: none;
+    padding: 5px 0px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 2px;
+    text-decoration: none; 
+}
+
+.actionsListForContactInfo {
+    float: left;
+    margin: 2px 0px;
+    list-style-type: none;
+    padding: 5px 0px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 2px;
+    text-decoration: none; 
+}
+.actionList .actionsListForContactInfo li a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.actionList .actionsListForContactInfo > li.menuItemDisabled,
+.actionList .actionsListForContactInfo > li.menuItem{
+    word-wrap: break-word;
+    color: #333;
+}
+
+.gridBottomBorder{
+    border-bottom: #CCC solid 1px !important;
+}
+#emptyDiv{
+    margin-top: 400px;
+    margin-bottom: 400px;
+}
+
+#resultsFooter{
+    clear: both; 
+    height: 10px;
+}
+
+.profileMessage{
+	padding-left: 150px;
+}
+
+.addInfo{
+	left: 15px;
+	display : none;
+	vertical-align: middle;
+	position: absolute; 
+	cursor: pointer;
+}
+
+#addInfoList{
+	cursor:default !important;
+}
+
+/* Additional Info Popover */
+ul#addInfoList{
+	margin: 0px;
+	padding: 3px 8px;
+}
+
+ul#addInfoList li{
+	align: left;
+}
+
+.infoLabel{
+	font-weight: bold;
+	text-align: left
+}
+
+.infoValue{
+	padding-left: 5px;
+	font-weight: normal;
+}
+
+.popover.top{
+   margin-top: -10px; /* J. Garrison added to override existing popover styles for unique case */
+}
+div#mainContent{
+	margin-top: 150px;
+	margin-left: 0px;
+}
+
+.sortColTR{
+    cursor: pointer;
+}
+
+/* .roundTopRight{
+    border-top-right-radius:0px !important;
+} */

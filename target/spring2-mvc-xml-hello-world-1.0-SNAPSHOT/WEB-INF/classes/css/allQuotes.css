@@ -1,0 +1,321 @@
+@charset "utf-8";
+
+#allQuotesTabs{
+	width: 170px;
+	margin-top: -32px;
+	margin-right: 2px;
+	padding: 0px;
+	float: right;
+	background: none;
+}
+
+/* Results Count, Advanced & Clear Search and More Results links */
+#gridCountRow{
+	width: 980px;
+	margin-top: 10px;
+	*margin-top: 8px;
+	margin-left: 2px;
+	font-weight: bold;
+}
+
+ul#gridCountLinks{
+	margin-top: 3px;
+	margin-left: 20px;
+}
+
+ul#gridCountLinks li.countLink{
+    display: inline;
+}
+
+#advSearch{
+	padding-left: 20px;
+	display: none;
+}
+
+#clearAdvSearch{
+	margin-left: 5px;
+	padding-left: 10px;
+	display: none;
+}
+
+/* Override Select Box It styles for Select Box plugin */
+.selectboxit-text, ul.selectboxit-options {
+	font-weight: normal !important;
+}
+
+ul.selectboxit-options li:hover{
+    background-color: #007ac9 !important;
+}
+
+ul.selectboxit-options li:hover > a, ul.selectboxit-options a:hover{
+	color: #ffffff !important; 
+    text-decoration: none !important;
+}
+
+ul.selectboxit-options a {
+	color: #333333 !important;
+}
+
+/* grid header */
+#searchResultsGridHeader{
+	margin-top: 0px;
+	*margin-top: -10px;
+}
+
+#gridHeader{
+	width: 970px;
+	margin-left: 20px;
+	margin-right: 30px;
+	border-collapse: separate;
+	*border-collapse: none;
+	border-spacing: 0;
+	border-style: none;
+}
+
+/* grid column headers */
+#gridHeader td#name{
+    *width: 128px;
+    max-width: 128px;
+    min-width: 128px; 
+    padding-left: 32px;
+}
+
+#gridHeader td#policyNumber{
+    *width: 146px;
+    max-width: 146px;
+    min-width: 146px;
+    padding-left: 4px;
+}
+
+#gridHeader td#effectiveDate{
+    *width: 90px;
+    max-width: 90px;
+    min-width: 90px; 
+}
+
+#gridHeader td#alignedTransactionType{
+    *width: 115px;
+    max-width: 115px;
+    min-width: 115px; 
+}
+
+#gridHeader td#alignedTransactionStatus{
+    *width: 110px;
+    max-width: 110px;
+    min-width: 110px; 
+}
+
+#gridHeader td#premium{
+    *width: 95px;
+    max-width: 95px;
+    min-width: 95px;
+}
+
+#gridHeader td#alignedLob{
+    *width: 84px;
+    max-width: 84px;
+    min-width: 84px; 
+    padding-left: 1px;
+}
+
+#gridHeader td#lastUpdatedDate{
+    *width: 90px;
+    max-width: 90px;
+    min-width: 90px;
+    padding-left: 3px;
+}
+
+#gridHeader td#esignatureStatus{
+    *width: 91px;
+    max-width: 91px;
+    min-width: 91px;
+    padding-left: 4px;
+}
+
+#gridHeader td#esignatureDate{
+    *width: 90px;
+    max-width: 90px;
+    min-width: 90px;
+    padding-left: 3px;
+}
+
+.eSignCol{
+	display: none;
+}
+
+#grid{
+	margin: 243px 30px 30px 20px;
+	*margin: 248px 20px 30px 20px;
+	width: 970px;
+	table-layout: fixed;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+/* grid columns */
+.appName{
+	padding-left: 23px;
+	margin-left: 2px;
+}
+
+.addInfo{
+	margin-top: 10px;
+	*margin-top: -2px;
+	margin-left: 5px;
+	vertical-align: middle;
+	position: absolute; 
+	display: none;
+	cursor: pointer;
+}
+
+#addInfoList{
+	cursor:default !important;
+}
+
+/* Additional Info Popover */
+ul#addInfoList{
+	margin: 0px;
+	padding: 3px 8px;
+}
+
+ul#addInfoList li{
+	align: left;
+}
+
+.infoLabel{
+	font-weight: bold;
+	text-align: left
+}
+
+.infoValue{
+	padding-left: 5px;
+	font-weight: normal;
+}
+
+.popover.top{
+   margin-top: -10px; /* J. Garrison added to override existing popover styles for unique case */
+}
+
+/* Advanced Search */
+#allQuotesErrorAlert{
+	margin-bottom: 5px;
+}
+
+.advSearchContent{
+	margin: 0;
+	width: 500px;
+}
+
+#advSearchForm{
+	padding: 0;
+	margin: 0;
+}
+
+table.advSearchTable{
+	width: 490px;
+	max-width: 490px;
+}
+
+table.advSearchTable tr {
+	height: 15px;
+}
+
+table.advSearchTable td{
+	text-align: left;
+	padding: 2px;
+	padding-bottom: 5px;
+	spacing: 2px;
+	vertical-align: middle;
+}
+
+table.advSearchTable td.srchButton{
+	text-align: right;
+}
+
+.advSrchLabel{
+	font-weight: bold;
+}
+
+input.quoteClsDate{
+    width: 170px;
+    height: 21px;
+    line-height: 21px;
+    text-indent: 5px;
+}
+
+input.advSearchInput,
+.advSearchInput{
+    width: 197px;
+    height: 21px;
+    line-height: 21px;
+    text-indent: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+/* override selectboxit styles for Adv Search */
+.selectboxit-container * {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 14x;
+}
+
+/* override ddcl styles for Adv Search  */
+.ui-dropdownchecklist {
+  width: 197px !important;
+  height: 21px;
+  font-size: 12px !important;
+  line-height: 14px !important;
+}
+
+.ui-dropdownchecklist-selector{
+	 width: 197px !important;
+}
+
+.ui-dropdownchecklist-selector-wrapper{
+	height: 21px !important; 
+   
+}
+
+.ui-dropdownchecklist-dropcontainer {
+   min-width: 197px !important;
+}
+
+.ui-dropdownchecklist-selector:hover,
+.ui-dropdownchecklist-selector-wrapper:hover,
+.ui-dropdownchecklist-selector:focus,
+.ui-dropdownchecklist-selector-wrapper:focus
+{
+  font-size: 12px !important;
+  line-height: 14px !important;
+}
+
+.ui-dropdownchecklist-headertext {
+  font-size: 12px !important;
+  line-height: 14px !important;
+  max-width: 164px !important;
+}
+
+ .ui-dropdownchecklist-text{
+    font-size: 12px !important;
+ }
+
+/* Stop Esignature */
+td.esignCell{
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+input.middleName{
+    width: 20px;
+    height: 21px;
+    text-indent: 5px;
+    line-height: 21px;
+}
+
+input.name{
+    width: 155px;
+    height: 21px;;
+    text-indent: 5px;
+    line-height: 21px;
+}

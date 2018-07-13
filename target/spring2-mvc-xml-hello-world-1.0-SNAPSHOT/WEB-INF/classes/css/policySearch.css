@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* grid column headers */
+#gridHeader td#name{
+    *width: 138px;
+    max-width: 138px;
+    min-width: 138px; 
+    padding-left: 12px;
+}
+
+#gridHeader td#residence{
+	*width: 175px;
+	max-width: 175px;
+	min-width: 175px;
+	padding-left: 20px; 
+}
+
+#gridHeader td#policyNumber{
+	*width: 139px;
+	max-width: 139px;
+	min-width: 139px;
+	padding-left: 11px;
+}
+
+#gridHeader td#effectiveDate{
+	*width: 94px;
+	max-width: 94px;
+	min-width: 94px; 
+	padding-left: 6px;
+}
+
+#gridHeader td#expirationDate{
+	*width: 100px;
+	max-width: 100px;
+	min-width: 100px;
+	padding-left: 5px;
+}
+
+#gridHeader td#status{
+	*width: 88px;
+	max-width: 88px;
+	min-width: 88px; 
+	padding-left: 2px;
+}
+
+#gridHeader td#lob{
+	*width: 90px;
+	max-width: 90px;
+	min-width: 90px; 
+	padding-left: 2px;
+}
+
+#grid td.residence{
+    line-height: 14px !important;
+}
+
+/* Override Select Box It styles for Select Box plugin */
+.selectboxit-text, ul.selectboxit-options {
+    font-weight: normal !important;
+}
+
+ul.selectboxit-options li:hover{
+    background-color: #007ac9 !important;
+}
+
+ul.selectboxit-options li:hover > a, ul.selectboxit-options a:hover{
+    color: #ffffff !important; 
+    text-decoration: none !important;
+}
+
+ul.selectboxit-options a {
+    color: #333333 !important;
+}

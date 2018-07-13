@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document for IE 7 specific styles*/
+#advSearchContent{
+	margin-top: -20px;
+}
+
+#startGlobalSearch{
+     margin-top: -6px;
+}

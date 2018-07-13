@@ -1,0 +1,546 @@
+/** bind Page layout do not disturb**/
+table.bindTab{
+width:800px !important;
+}
+
+td.bindLabel{
+width:200px !important;
+}
+td.grid1{
+width:180px !important;
+}
+td.grid2{
+width:180px !important;
+}
+td.grid3{
+width:230px !important;
+}
+
+td.columnSeparator{
+width:50px !important;
+}
+td.lastColumn{
+width:90px !important;
+}
+/** bind page layout **/
+
+/** yes no modal dialog **/
+.yesNoModal{
+width:275px !important;
+} 
+
+/* .yesNoModalFooter{
+height:12px !important;
+}  */
+
+.bindSectionLabel /* main header label, i.e. vehicles */{
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 0;
+    margin-bottom: 0px;
+    padding-left: 75px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bindFieldLabel /* main header label, i.e. vehicles */{
+    font-size: 11px;
+    line-height: 14px;
+    margin-left: 0;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    font-weight: normal;
+}
+
+.bindAddressLabel /* main header label, i.e. vehicles */{
+    font-size: 11px !important;
+    line-height: 14px;
+    margin-left: 0;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.bindPaymentLabel /* main header label, i.e. vehicles */{
+    font-size: 12px !important;
+    line-height: 14px;
+    margin-left: 0;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+ul.bindNoBullets{
+    list-style-type: none;
+    list-style-image: inherit;
+}
+
+td.bindSectionHeaderCol,
+td.bindFieldColZipCity{
+    width: 130px !important;
+    vertical-align: middle;
+    padding-right: 5px !important; 
+}
+
+td.bindSectionHeaderCol,
+td.bindFieldColZip4State{
+    width: 95px !important;
+    vertical-align: left;
+   /*  padding-right: 20px !important; */
+}
+
+td.BindPagesectionHeaderLabel,
+td.BindHdrFieldLabel{
+    width: 182px; 
+   /*  vertical-align: middle; */
+    padding-right: 20px;
+}
+
+td.BindPagesectionCheckLabel,
+td.BindHdrCheckLabel{
+    width: 180px; 
+   /*  vertical-align: middle; */
+    padding-right: 20px;
+}
+
+td.BindPagesectionAddressLabel,
+td.BindAddressLabel{
+    width: 552px; 
+   /*  vertical-align: middle; */
+    padding-right: 20px;
+}
+
+input.bindColZip4StateInput {
+    text-indent: 5px;
+    text-align: middle;
+    width: 90px;
+    min-width: 90px; 
+    max-width: 90px;
+    height: 21px !important;
+    min-height: 21px !important;
+    max-height: 21px !important;
+    padding: 0 !important;
+    margin: 0  !important;
+    font-size: 11px;
+    line-height: 21px !important;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    *overflow: visible;
+}
+
+.bindColZip4StateSelect{
+  width: 95px !important;
+  min-width: 95px  !important;
+  max-width: 95px !important;
+  height: 23px !important;
+  min-height: 23px !important;
+  max-height: 23px !important;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 23px !important;
+  color: #333333;
+}
+
+tr.bindSectionHeaderRow > td,
+tr.bindFieldRow > td{ 
+    height: 14px;
+    padding: 0;
+    margin: 0;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+/*  primary and secondary brown header  */
+.primApplicantHeader {
+	width: 188px;
+	height: 20px;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	color: #fffeff;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding-left: 10px;
+    background-color: #666;
+}
+
+.secApplicantHeader {
+	width: 188px;
+	height: 20px;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	color: #fffeff;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding-left: 10px;
+    background-color: #666;
+	background: #666 url(../images/icons_vehHeaderClose.png) no-repeat 175px 1px;
+}
+
+.addCoApplicantBtn{
+  display: inline-block;
+  *display: inline;
+  padding: 10px 5px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 12px;
+  *line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	font-weight: bold;
+	*text-transform: uppercase;
+	min-width: 100px;
+	min-height: 20px;
+	border: 1px solid #57a1ce;
+	/**border: 0 !important;*/
+	*letter-spacing: 1px;
+}
+
+.nextBtn{
+  display: inline-block;
+  *display: inline;
+  padding: 10px 5px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 12px;
+  *line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	font-weight: bold;
+	*text-transform: uppercase;
+	min-width: 75px;
+	min-height: 15px;
+	border: 1px solid #57a1ce;
+	/**border: 0 !important;*/
+	*letter-spacing: 1px;
+}
+
+.yesNoBtn{
+  display: inline-block;
+  *display: inline;
+  padding: 5px 5px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 12px;
+  *line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	font-weight: bold;
+	*text-transform: uppercase;
+	min-width: 45px;
+	min-height: 20px;
+	border: 1px solid #57a1ce;
+	/**border: 0 !important;*/
+	*letter-spacing: 1px;
+}
+
+li.bindAdvice{
+font-family: Arial,Helvetica,sans-serif;
+font-size: 12px;
+line-height: 20px;
+}
+
+td.termCondition{
+	BACKGROUND:#0077bb;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+
+}
+
+input.dateField {
+	/*width: 75px;*/
+	width: 155px;
+	margin-top: 4px;
+	text-align: left;
+}
+
+select.yesNoSelect{
+	WIDTH: 70px !important;
+ 	MIN-WIDTH: 70px !important;
+    MAX-WIDTH: 70px !important;
+    BORDER: 1px solid !important;
+    MARGIN: 0px !important;
+    PADDING: 1px !important;
+    height: 21px !important;
+    line-height: 21px !important;
+    BORDER-TOP: #999 1px solid;
+    BORDER-LEFT: #999 1px solid;
+    BORDER-BOTTOM: #999 1px solid;
+    BORDER-RIGHT: #999 1px solid;
+    PADDING-TOP: 1px;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 1px;
+    PADDING-RIGHT: 1px;
+    FONT-SIZE: 10px;
+    BACKGROUND: #fff;
+    COLOR: #666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    
+}
+
+select.bindclsState{
+	WIDTH: 75px !important;
+ 	MIN-WIDTH: 75px !important;
+    MAX-WIDTH: 75px !important;
+   /* BORDER: 1px solid !important;
+    MARGIN: 0px !important;
+    PADDING: 1px !important;
+    height: 21px !important;
+    line-height: 21px !important;
+    BORDER-TOP: #999 1px solid;
+    BORDER-LEFT: #999 1px solid;
+    BORDER-BOTTOM: #999 1px solid;
+    BORDER-RIGHT: #999 1px solid;
+    PADDING-TOP: 1px;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 1px;
+    PADDING-RIGHT: 1px;
+    FONT-SIZE: 10px;
+    BACKGROUND: #fff;
+    COLOR: #666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;*/
+}
+
+select.maritalStatus{
+	WIDTH: 125px !important;
+ 	MIN-WIDTH: 125px !important;
+    MAX-WIDTH: 125px !important;
+    BORDER: 1px solid !important;
+    MARGIN: 0px !important;
+    PADDING: 1px !important;
+    height: 21px !important;
+    line-height: 21px !important;
+    BORDER-TOP: #999 1px solid;
+    BORDER-LEFT: #999 1px solid;
+    BORDER-BOTTOM: #999 1px solid;
+    BORDER-RIGHT: #999 1px solid;
+    PADDING-TOP: 1px;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 1px;
+    PADDING-RIGHT: 1px;
+    FONT-SIZE: 10px;
+    BACKGROUND: #fff;
+    COLOR: #666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+select.suffix{
+	WIDTH: 92px !important;
+ 	MIN-WIDTH: 92px !important;
+    MAX-WIDTH: 92px !important;
+    BORDER: 1px solid !important;
+    MARGIN: 0px !important;
+    PADDING: 1px !important;
+    height: 21px !important;
+    line-height: 21px !important;
+    BORDER-TOP: #999 1px solid;
+    BORDER-LEFT: #999 1px solid;
+    BORDER-BOTTOM: #999 1px solid;
+    BORDER-RIGHT: #999 1px solid;
+    PADDING-TOP: 1px;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 1px;
+    PADDING-RIGHT: 1px;
+    FONT-SIZE: 10px;
+    BACKGROUND: #fff;
+    COLOR: #666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.ui-datepicker-trigger {
+    margin-left : 3px;
+    top:1px;
+}
+
+.aiBtnSmall{
+    *line-height: 8px;
+    *line-height: 10px;
+}
+
+hr {
+  margin: 2px 0;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid orange;
+ * border-color:orange;
+}
+
+ 
+select.bindSelectDropDown190 {
+   
+    WIDTH: 190px !important;
+    MIN-WIDTH: 190px !important;
+    MAX-WIDTH: 190px !important;
+  /*   BORDER: 1px solid !important;
+    MARGIN: 0px !important;
+    PADDING: 1px !important;
+    height: 21px !important;
+    line-height: 21px !important;
+    BORDER-TOP: #999 1px solid;
+    BORDER-LEFT: #999 1px solid;
+    BORDER-BOTTOM: #999 1px solid;
+    BORDER-RIGHT: #999 1px solid;
+    PADDING-TOP: 1px;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 1px;
+    PADDING-RIGHT: 1px;
+    FONT-SIZE: 10px;
+    BACKGROUND: #fff;
+    COLOR: #666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; */
+}
+
+select.bindSelectDropDown50 {
+    WIDTH: 50px !important;
+    BORDER: 1px solid !important;
+    MARGIN: 0px !important;
+    PADDING: 1px !important;
+    height: 21px !important;
+    line-height: 21px !important;
+     BORDER-TOP: #999 1px solid;
+    BORDER-LEFT: #999 1px solid;
+    BORDER-BOTTOM: #999 1px solid;
+    BORDER-RIGHT: #999 1px solid;
+    PADDING-TOP: 1px;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 1px;
+    PADDING-RIGHT: 1px;
+    FONT-SIZE: 10px;
+    BACKGROUND: #fff;
+    COLOR: #666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+span.applicantLabel {
+    float: center;
+    height: 27px;
+    background: transparent url('../images/btn_left.png') no-repeat 0 0;
+    margin-right: 12px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:11px;
+    font-weight:bold;
+    letter-spacing:1px;
+    
+}
+
+input.clsAddressLine{
+	 display: inline-block;
+	 height: 14px;
+	 font-size: 12px;
+	 color: #333;
+	 -webkit-border-radius: 1px;
+	    -moz-border-radius: 1px;
+	         border-radius: 1px;
+	margin-bottom: 9px;
+	width: 100%;
+	line-height: 14px;
+	padding: 5px 8px 4px;
+	font-weight: normal;
+	font-style: normal;
+	color: #333333;
+    vertical-align: middle;
+    *overflow: visible;
+}
+
+input.clsZip{
+	 display: inline-block;
+	 height: 14px;
+	 font-size: 12px;
+	 color: #333;
+	 -webkit-border-radius: 1px;
+	    -moz-border-radius: 1px;
+	         border-radius: 1px;
+	margin-bottom: 9px;
+	width: 75px;
+	line-height: 14px;
+	padding: 5px 8px 4px;
+	font-weight: normal;
+	font-style: normal;
+	color: #333333;
+    vertical-align: middle;
+    *overflow: visible;
+}
+
+input.clsZipPlusFour{
+	 display: inline-block;
+	 height: 14px;
+	 font-size: 12px;
+	 color: #333;
+	 -webkit-border-radius: 1px;
+	    -moz-border-radius: 1px;
+	         border-radius: 1px;
+	margin-bottom: 9px;
+	width: 60px;
+	line-height: 14px;
+	padding: 5px 8px 4px;
+	font-weight: normal;
+	font-style: normal;
+	color: #333333;
+    vertical-align: middle;
+    *overflow: visible;
+}
+
+.widthDD60{ 
+        width: 60px; 
+        max-width: 65px; 
+} 
+.widthDD90{ 
+        width: 90px; 
+        max-width: 95px; 
+} 
+
+td.termCondition{
+	BACKGROUND:#0077bb;
+	FONT-SIZE: 10px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+#eDocsModal {
+	z-index: 9997;
+	left: 39%
+}
+
+/* Fixes for reducing gap between tab bottom and Top Container & Section Title Top Margin */
+#mainContent {
+    padding-top: 7px !important;
+    margin-top: 143px !important;
+}

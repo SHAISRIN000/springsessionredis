@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+ 
+    <title>UI Elements</title>
+   
+    <script type="text/javascript" src="../js/common/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="../js/common/jquery-1.8.23-ui.js"></script>
+    <script type="text/javascript" src="../js/bootstrap/bootstrap-combined.js"></script>
+    <script type="text/javascript" src="../js/dropdowns/jquery.selectBoxIt.js"></script>
+    <script type="text/javascript" src="../js/dropdowns/ui.dropdownchecklist-1.4-min.js"></script>    
+    <script type="text/javascript" src="../js/common/uiElements.js"></script>
+   
+   <link href="dropdowns/ui.dropdownchecklist.standalone.css" rel="stylesheet"/>
+   <link href="dropdowns/jquery.selectBoxIt.css" rel="stylesheet"/>
+   <link href="bootstrap/bootstrap.css" rel="stylesheet" media="screen"/>
+   <link href="aiCommon.css" rel="stylesheet" media="screen"/>
+   
+</head>
+
+<body style="background-color: #f7f7f7;margin-top:-30px;margin-left:20px;">
+	
+	<!-- Popover example-->
+    <div id="popoverExample">
+      <h4>Popover/Flyout (click on link to toggle popover)</h4><p/>
+      <a href="#" class="showPopover">View Popover</a>
+      <div id="popupContent" style="display:none;">  
+          <p>This is sample text that can be placed in a popover.<br/>
+          Any content can be placed in here.<br/>
+          The content within in the popup determines its size</p>
+      </div>
+     </div>
+     <br/><br/>
+     
+	<!-- Tooltip examples, requires both bootstrap-tooltip.js and bootstrap-popover.js-->
+   
+    <!-- Tooltip example where static content is assigned to title attribute of element tooltip is bound to -->
+	<div id="toolTipExample">
+	  <h4>Tooltip Example One</h4><p/>
+	  <input id="txtField" type="text" rel="tooltip" title="This is a help message or any other content you wish to display in a tool tip."/>
+	</div>
+	<br/><br/>
+	
+	 <!-- Tooltip example where dynamic content is assigned to tooltip -->
+	 <div id="toolTipExampleTwo">
+		<h4>Tooltip Example Two</h4><p/>
+		<a href="#" id="showToolTip" rel="tooltip">Show Tooltip</a>
+		<div id="toolTipMsg" style="display:none;">
+			  This is a help message or any other content you wish to display in a tool tip.
+		</div>
+	 </div>
+	<br/><br/>
+    
+    <!-- Page alerts -->
+    <h4>Page Alerts/Alert Popups</h4><p/>
+    
+    <div class="aiAlert hardAlert">
+		<b>ERROR!</b> The following errors must be fixed.
+        <br/>Atleast one driver must be a principal operator.
+	</div>
+     
+    <div class="aiAlert hardAlert">
+		<b>ERROR!</b> The following errors must be fixed.
+       	<br/>Click <a href="#" class="openErrorDialog">here</a> for the error descriptions.
+	</div>
+     
+	<div class="aiAlert softAlert">
+	   <b>WARNING!</b> This is a warning message.
+	</div>
+     
+	<div class="aiAlert softAlert">
+      	<b>WARNING!</b> This is a warning message.<br/>
+   		Click <a href="#" class="openWarningDialog">here</a> to display the full message.
+	</div>
+	  
+	<div class="aiAlert successAlert">
+	  <b>SUCCESS!</b> This is a success message.
+	</div>
+	  
+	<div class="aiAlert successAlert">
+	  <b>SUCCESS!</b> This is a success message.<br/>
+	  Click <a href="#" class="openSuccessDialog">here</a> to display the full message.
+	</div>
+	  
+	<div class="aiAlert infoAlert">
+	  <b>INFORMATION:</b> This is an informative message.
+	</div>
+   
+	<div class="aiAlert infoAlert">
+    	<b>INFORMATION:</b> This is an informative message.<br/>
+  		Click <a href="#" class="openInfoDialog">here</a> to display the full message.
+	</div>
+	
+	<div class="aiAlert tipAlert">
+	  	<b>TIP:</b> This is a tip message.
+	</div>
+	   
+   	<div class="aiAlert tipAlert">
+    	<b>TIP:</b> This is an tip message.<br>
+    	Click <a href="#" class="openTipDialog">here</a> to display the full message.
+	</div>	
+	<br/><br/>	 
+    
+    <!-- Tabs -->
+    <h4>Tabs</h4> 
+    <div id="tabsExample" class="tabbable">
+       <ul class="nav nav-tabs ai-tabs">  
+        <li id="allQuotesTab" class="activeTab"><a href="#" data-toggle="tab">All Quotes</a></li>  
+        <li id="accViolTab" class="visitedTab"><a href="#" data-toggle="tab">Accidents / Violations</a></li>
+        <li id="driversTab" class="disabledTab"><a href="#" data-toggle="tab">Drivers</a></li>
+        <li id="appTab" class="applicationTab"><a href="#" data-toggle="tab">Vehicles</a></li>
+      </ul>
+    </div>
+    <br/><br/>
+    
+    <!-- Buttons -->
+    <div id="buttons">
+     <h4>Buttons as &lt;a&gt;</h4>
+      <!--  Primary button as hyperlink -->
+      <a href="#" class="aiBtn primaryBtn">Primary</a>
+      <br/><br/>
+      
+      <!-- Small Primary Button as hyperlink -->
+      <a href="#" class="aiBtn primaryBtn aiBtnSmall">Small Primary</a>
+      <br/><br/>
+      
+      <!--  Disabled Primary button as hyperlink  -->
+      <a class="aiBtn primaryBtn" disabled>Disabled Primary</a>
+      <br/><br/>
+      
+      <!-- Disabled Small Primary as hyperlink -->
+      <a class="aiBtn primaryBtn aiBtnSmall" disabled>Disabled Small Primary</a>
+      <br/><br/>
+      
+      <!--  Secondary button as hyperlink  -->
+      <a href="#" class="aiBtn secondaryBtn">Secondary</a>
+      <br/><br/>
+      
+      <!-- Small Secondary Button as hyperlink -->
+      <a href="#" class="aiBtn secondaryBtn aiBtnSmall">Small Secondary</a>
+      <br/><br/>
+      
+      <!--  Disabled Secondary button as hyperlink  -->
+      <a class="aiBtn secondaryBtn" disabled>Disabled Secondary</a>
+      <br/><br/>
+      
+      <!-- Disabled Small Secondary Button as hyperlink -->
+      <a class="aiBtn secondaryBtn aiBtnSmall" disabled>Small Secondary</a>
+      <br/><br/><br/>
+      
+      <h4>Buttons as &lt;buttons&gt; elements</h4>
+      <!-- New Quote Button -->
+      <button class="aiBtn newQuoteBtn" type="button">New Quote</button><br/>
+      <br>  
+          
+      <!-- Primary Button -->
+      <button class="aiBtn primaryBtn" type="button">Primary</button>
+      <br/><br/>
+      
+      <!-- Small Primary Button -->
+      <button class="aiBtn primaryBtn aiBtnSmall" type="button">Small Primary</button><br/>
+      <br/><br/>
+      
+      <!-- Primary Button - disabled -->
+      <button class="aiBtn primaryBtn" type="button" disabled>Primary Disabled</button>
+      <br/><br/>
+      
+      <!-- Small Primary Button - disabled -->
+      <button class="aiBtn primaryBtn aiBtnSmall" type="button" disabled>Small Primary Disabled</button>
+      <br/><br/>
+      
+      <!-- Secondary Button -->
+      <button class="aiBtn secondaryBtn" type="button">Secondary</button><br/>
+      <br/><br>
+      
+      <!-- Small Secondary Button -->
+      <button class="aiBtn secondaryBtn aiBtnSmall" type="button">Small Secondary</button><br/>
+      <br/><br/>
+      
+      <!-- Secondary Button - disabled -->
+      <button class="aiBtn secondaryBtn" type="button" disabled>Secondary Disabled</button>
+      <br/><br>
+      
+      <!-- Small Secondary Button - disabled -->
+      <button class="aiBtn secondaryBtn aiBtnSmall" type="button" disabled>Small Secondary Disabled</button>
+      <br/><br/>
+      
+      <!-- Rate Buttons -->
+      <button class="aiBtn rateBtn" type="button">Rate</button><br/><br/>
+      <button class="aiBtn rateBtn" type="button" disabled>Rate</button><br/><br/>
+      <button class="aiBtn rateBtn rateBtn-rightAlign" type="button"><span class="premAmt">$1,365</span><div class="rateSecLine">Annual Premium</div></button><br/><br/>
+      <button class="aiBtn rateBtn rateBtn-rightAlignIcon" type="button"><img class="refreshIcon" src="../images/icon_refresh.png"/>Rate
+      <div class="rateSecLine">Prior Premium <span class="premAmt">$15,365</span></div>
+      </button><br/><br>
+      <button class="aiBtn rateBtn rateBtn-rightAlignIcon" type="button"><img class="refreshIcon" src="../images/icon_refresh.png"/>Rate
+      <div class="rateSecLine">Existing Prem <span class="premAmt">$15,365</span></div>
+      </button><br/><br>
+      
+      <button class="aiBtn rateBtn rateBtn-rightAlign" type="button"><span class="premAmt">$13,365</span>
+      <div class="rateSecLine">Existing Prem <span class="premAmt">$15,365</span></div>
+      </button><br/><br/>
+      
+    </div>
+    <br/><br/>
+    
+    <!-- Header Divider -->					    
+	<h4>Header Divider</h4> 
+    <p class="divider"><br/>
+    <p>Section content here.
+    <br/><br/>
+    
+    <!-- Vehicle/Driver Header -->
+    <h4>Vehicle/Driver Header</h4>
+    <div class="vehDriHeader">
+	     Vehicle / Driver Col. Tab
+	</div>                                   
+    <input id="ssn" type="text" maxlength="11"/>
+    <br/><br/>
+    
+    <!-- User Info Box -->
+    <h4>User Info Box</h4>
+    <div class="userInfoBox">
+      John J. Smith: HPAQ00012345645<br>
+      Effective Date: 12/22/2012<br>
+      <a href="#">Save</a> | <a href="#">Save As</a> | <a href="#">Notes</a> | <img src="../images/doublePages.png" alt="icon_userInfo" width="17" height="20" style="margin-left:5px;margin-right:3px" /><a href="#">Forms</a>
+    </div>
+    <br/><br/>
+    
+    <!-- Common input fields -->
+    <h4>Input Fields</h4>
+    <div id="commonInputFields">
+      
+      <!-- Input text fields -->
+      <input id="ssn" type="text" class="optional" maxlength="11"/><br/>
+      <input id="ssn" type="text" class="preRequired" value="PreRequired Field" maxlength="11"/><br/>
+      <input id="ssn" type="text" class="inlineError" value="Required Field" maxlength="11"/><br/>            
+      
+      <!-- Inline error message -->
+      <p class="inlineErrorMsg">This is a inline error message.</p>
+      
+      <!--  page label -->
+      <label class="sectionLabel ">Policy Information</label>
+      
+      <!-- checkboxes -->
+      <label class="checkbox inline">field label:&nbsp;&nbsp;</label>&nbsp;<input type="checkbox" id="sampleChkBox" value="Yes"/><br/>
+     
+      <!-- radio button -->
+      <label class="radio inline">Yes</label>
+      <input type="radio" name="optionsRadios" id="optionsRadios" value="option1" checked>
+      <label class="radio inline">No</label>
+      <input type="radio" name="optionsRadios" id="optionsRadios" value="option2">
+      <br/>
+      
+      <!-- toggle checkbox by clicking on label, would not work on pages where more than one element has same checkbox (i.e vehicle)-->
+      <label id="chkLabel" class="checkbox inline">Clickable Checkbox Label:</label>
+      &nbsp;&nbsp;<input type="checkbox" id="chkAddress" value="Yes"> 
+      <br/>
+    
+     </div>
+    <br/><br/>
+    
+    <!-- Date Field -->					        
+    <h4>Date Field</h4>
+    <div id="dateField">
+  		<input type="text"/><img class="calIcon" src="../images/cal_icon.png" alt="cal_icon" width="18" height="15" class="calIcon"/>
+    </div>
+    <br/><br/>
+    
+    <!-- DatePicker Icon -->					        
+	<h4>DatePicker Icon (click on input field to display icon)</h4>
+    <div id="datePickerExample">
+     <input id="datePicker" type="text"/>
+    </div>
+	<br/><br/>	
+    
+    <!-- Tables/Grids -->
+    <div class="table-example">
+	    <h4>Table/Grid</h4>          
+	    <table class="table table-bordered" style="width:600px;">
+	       <thead>
+	         <tr>
+	           <th>#</th>
+	           <th>First Name</th>
+	           <th>Last Name</th>
+	           <th>Username</th>
+	         </tr>
+	       </thead>
+	       <tbody>
+	         <tr>
+	           <td>1</td>
+	           <td>Mark</td>
+	           <td>Otto</td>
+	           <td>@mdo</td>
+	         </tr>
+	         <tr>
+	           <td>2</td>
+	           <td>Jacob</td>
+	           <td>Thornton</td>
+	           <td>@fat</td>
+	         </tr>
+	         <tr>
+	           <td>3</td>
+	           <td>Larry</td>
+	           <td>the Bird</td>
+	           <td>@twitter</td>
+	         </tr>
+	       </tbody>
+	     </table>
+    </div>
+    <br/><br/>
+      
+    <!-- Striped Table/Grid -->
+    <div class="table-striped-example">
+       <h4>Striped Table/Grid</h4>          
+       <table class="table table-striped table-bordered" style="width:600px;">
+         <thead>
+           <tr>
+             <th>#</th>
+             <th>First Name</th>
+             <th>Last Name</th>
+             <th>Username</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td>1</td>
+             <td>Mark</td>
+             <td>Otto</td>
+             <td>@mdo</td>
+           </tr>
+           <tr>
+             <td>2</td>
+             <td>Jacob</td>
+             <td>Thornton</td>
+             <td>@fat</td>
+           </tr>
+           <tr>
+             <td>3</td>
+             <td>Larry</td>
+             <td>the Bird</td>
+             <td>@twitter</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+     <br/><br/>
+        
+     <!-- Stylizing Table Rows-->
+     <div>
+     <h4>Stylizing Table Rows</h4>          
+         <table class="table table-striped table-bordered" style="width:600px;">
+           <thead>
+             <tr>
+               <th>#</th>
+               <th>First Name</th>
+               <th>Last Name</th>
+               <th>Username</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td>1</td>
+               <td>Mark</td>
+               <td>Otto</td>
+               <td>@mdo</td>
+             </tr>
+             <tr class="lastRow">
+               <td>2</td>
+               <td>Jacob</td>
+               <td>Thornton</td>
+               <td>@fat</td>
+             </tr>
+             <tr>
+               <td>3</td>
+               <td>Larry</td>
+               <td>the Bird</td>
+               <td>@twitter</td>
+             </tr>
+               <tr class="lastRow">
+               <td>4</td>
+               <td>Mark</td>
+               <td>Otto</td>
+               <td>@asfdamdo</td>
+             </tr>
+               <tr>
+               <td>5</td>
+               <td>Tom</td>
+               <td>Otto</td>
+               <td>@ottoTom</td>
+             </tr>
+               <tr>
+               <td>6</td>
+               <td>Frank</td>
+               <td>Otto</td>
+               <td>@frankOtto</td>
+             </tr>
+               <tr class="lastRow">
+               <td>7</td>
+               <td>Adam</td>
+               <td>Otto</td>
+               <td>@aOtto</td>
+             </tr>
+               <tr>
+               <td>8</td>
+               <td>Maria</td>
+               <td>Otto</td>
+               <td>@mdo</td>
+             </tr>
+           </tbody>
+         </table>
+       </div>
+     <br/><br/> 
+        
+    <!-- Toggle Drop Down Icons -->
+    <h4>Toggle Drop Down Icons</h4>
+    <p><b>Positive Toggle Drop Down icon</b><div class="dropdownPositive"></div><br/>
+    <p><b>Negative Toggle Drop Down icon</b><div class="dropdownNegative"></div>
+    <br/><br/>
+    
+    <!--  Icons -->
+	<h4>Scrolling Icons</h4>
+	<tr>
+ 		<td><img src="../images/arrow_left.png"/></td>
+ 		<td><img src="../images/arrow_doubleLeft.png"/></td>
+ 		<td><img src="../images/arrow_doubleRight.png"/></td>
+ 		<td><img src="../images/arrow_right.png"/></td>
+	 </tr>
+	<br/><br/>
+	 
+	 <!--  Icons -->
+	 <h4>Additional Icons</h4>
+	 <table>
+	 	<tr>
+	 		<td><img src="../images/warning.png"/></td>
+	 		<td><img src="../images/singlePage.png"/></td>
+	 		<td><img src="../images/searchBox_RoundX.png"/></td>
+	 		<td><img src="../images/searchBox_magGlass.png"/></td>
+	 		<td><img src="../images/questionMark.png"/></td>
+	 		<td><img src="../images/printer.png"/></td>
+	 		<td><img src="../images/save.png"/></td>
+	 		<td><img src="../images/questionMark.png"/></td>
+	 		<td><img src="../images/icon_replace.png"/></td>
+	 	</tr>
+	 	<tr>
+	 		<td><img src="../images/positive.png"/></td>
+	 		<td><img src="../images/pageAlert_warningIcon.jpg"/></td>
+	 		<td><img src="../images/icons_tip.png"/></td>
+	 		<td><img src="../images/mail.png"/></td>
+	 		<td><img src="../images/negative.png"/></td>
+	 		<td><img src="../images/money.png"/></td>
+	 		<td><img src="../images/icon_esig.png"/></td>
+	 	</tr>
+	 	<tr>
+	 		<td><img src="../images/info.png"/></td>
+	 		<td><img src="../images/icons_success.png"/></td>
+	 		<td><img src="../images/icons_info.png"/></td>
+	 		<td><img src="../images/icons_error.png"/></td>
+	 		<td><img src="../images/icons_alert.png"/></td>
+	 		<td><img src="../images/doublePages.png"/></td>
+	 	</tr>
+	 	<tr>
+	 		<td><img src="../images/close_icon.png"/></td>
+	 		<td><img src="../images/chat.png"/></td>
+	 		<td><img src="../images/cal_icon.png"/></td>
+	 		<td><img src="../images/blackCarrot.png"/></td>
+	 		<td><img src="../images/icons_vehHeaderClose.png"/></td>
+	 		<td><img src="../images/icon_refresh.png"/></td>
+	 	</tr>
+	 </table>
+	 <br/><br/>	
+	 
+	<h4>List Area</h4>
+    <div class="listAreas">
+       1 item selected&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Edit</a>
+    </div>
+    <br/><br/>	
+    
+    <h4>Read Only</h4>
+    <div class="readOnlyItem">
+       Symbol
+    </div>
+    <br/><br/>
+    
+    <h4>Disabled Input Field</h4>
+    <input type="text" disabled value="Test" class="colInput"/>
+    <br/><br/>
+    
+    
+</body>
+</html>

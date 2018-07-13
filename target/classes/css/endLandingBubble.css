@@ -1,0 +1,32 @@
+.endBubbledialog {
+	background-color:#EEEEEE; 
+	width:400px;
+	height:565px;
+}
+
+.endMegaMenuItem {
+	padding-left: 25px;
+}
+
+.endMegaMenuItemHeading {
+	font-family:arial;
+	color:#333333;
+	font-size:12px;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.endTableStyle{
+	width:350px;
+	height:565px;
+}
+
+.endTDStyle1{
+    padding-left: 5px; 
+    padding-bottom: 30px;
+}
+
+.endTDStyle2{
+    padding-left: 10px; 
+    padding-right: 5px; 
+    padding-bottom: 30px;
+}

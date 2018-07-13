@@ -1,0 +1,360 @@
+/** The padding-bottom is not appropriate for the Welcome page **/
+#landingContent{
+    margin-top: 100px;
+    *margin-top: 150px;
+    margin-left: 10px;
+    padding-top: 30px;
+    *padding-top: 53px;
+    *padding-top: 73px;
+}
+
+.links {
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4a4948), to(#323537));
+    background-image: -webkit-linear-gradient(top, #4a4948, #323537);
+    background-image: -o-linear-gradient(top, #4a4948, #323537);
+    background-image: linear-gradient(to bottom, #4a4948, #323537);
+    background-image: -moz-linear-gradient(top, #4a4948, #323537);
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#4a4948', endColorstr='#323537');
+    color:white;
+    padding: 0 5px 0 23px;
+    margin-top: 20px;
+    margin-left: -2px;
+}
+
+#fixedPageHeader{
+    margin: 130px 0 0 0;
+}
+   
+.globalHeader {
+    background-position: 0 -30px;
+    height: 165px;
+}
+
+.links a {
+    color:white;
+}
+
+#messageSep {
+    margin-left : 20px;
+    margin-right : 40px;
+}
+
+.messageHeaderBox {
+    width: 965px;
+    height: 30px;
+    background-color: #F7F7F7;
+    /* border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; */
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: -39px;
+    padding: 0px;
+    position: fixed;
+    font-size: 11px !important;
+    color: #666666;
+    font-weight: bold;
+    line-height: 15px;
+    z-index: 100;
+}
+
+/* #messageHeaderContents {
+	margin: 0 auto;
+	width: 390px;
+	vertical-align: middle;
+} */
+
+#messageHeaderContents {
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 600px;
+	vertical-align: middle;
+	float: right;
+}
+
+#alertHeaderContents{
+	margin-top: 10px;
+	margin-left: -10px;
+	width: 300px;
+	vertical-align: middle;
+	float: left;
+}
+
+/* #mcHeader {
+    margin-left: 14px;
+	font-size: 24px !important;
+    font-weight: bold;
+    vertical-align: middle;
+} */
+
+#mcHeader {
+    /* margin-left: 14px; */
+    margin-left: 10px;
+	font-size: 24px !important;
+    font-weight: normal;
+    vertical-align: middle;
+    color: #007AC9; /* Added */
+    float: left;
+}
+
+#myView {
+	margin-right: 10px;
+	font-size: 14px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: #666666;	
+    float: right;
+}
+
+#alertView {
+	font-family: 'ArialMT','Arial';
+	font-weight: 400;
+	font-style: normal;
+	line-height: normal;
+	font-size: 12px;
+    vertical-align: middle;
+    color: #999999;	
+    float: right;
+}
+
+#contentPanels  {
+	width: 990px;
+	margin-top: 30px;
+}
+
+#mainPanelBody {
+    margin-left: 15px;
+    margin-right: 13px;
+    margin-bottom: 20px;
+}
+
+/* .messageListSection {
+     float: left;
+     width: 35%;
+} */
+
+.messageListSection {
+     float: left;
+     width: 50%;
+}
+
+/* .messageList {
+    margin-right: 13px;
+} */
+
+.messageList {
+    margin: 22px; 
+}
+
+#messageBlock {
+	float: right;
+	border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	width: 600px;
+	height: 162px;
+	background-color: #DCDBDB;
+	/* color: black; */
+}
+
+#txnAlerts{
+	float: left;
+	border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #007AC9;
+    width: 300px;
+    height: 162px;
+    color: white;
+}
+
+#viewAllMessages{
+	font-family: 'ArialMT', 'Arial';
+	font-weight: 400;
+	font-style: 13px;
+	color: #333333;
+	line-height: normal;
+}
+
+.messageLinkMain{
+	font-family: 'ArialMT', 'Arial';
+	font-weight: 400;
+	font-style: 13px;
+	color: #333333;
+	line-height: normal;
+}
+
+div.messageList hr {
+	border-top: 1px solid #dddede;
+}
+
+hr.vertical{
+   width: 0px;
+   height: 224px;
+   border: 1px solid #6B6C6D;
+   margin-left: 34px;
+   margin-right: 15px;
+} 
+
+.messageImgSection {
+     float: left;
+     width: 30%;
+}
+
+.messageItem {
+    color: #0099cc;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    position: relative;
+}
+
+.messageDate {
+     color: #9d9c96;
+     font-size: 10px;
+     line-height: 12px;
+     position: absolute; 
+     bottom: 0; 
+     verical-align: bottom;
+}
+
+.messageLink,
+.messageLink:hover{
+	color: #007ac9;
+}
+
+#viewAllMessages {
+     color: #9d9c96;
+     font-size: 12px;
+}
+
+#messageSep {
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.materialsPanel {
+    float: left;
+    width: 30%;
+}
+
+.materialsImage {
+    float: left;
+    width: 30%;
+    margin-right: 11px;
+}
+
+.materialsTitle {
+     color: #007ac9;
+     font-size: 12px;
+     line-height: 24px;
+     font-weight: bold;
+}
+
+.materialsTitle:hover {
+     color: #007ac9;
+}
+
+.materialsText {
+     color: #333333;
+     font-size: 11px;
+     line-height: 14px;
+}
+
+.materialsLink {
+	float: left;
+	width: 66%;
+}
+
+.menuItemContent {
+	width: 100%
+}
+
+#footer {
+	padding-top: 10px;
+}
+
+
+#formBottomGrey {
+    background-image: url('../images/AI2FormBottom_greyGrad.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 16px;
+}
+
+.footerTitle {
+     color: #b9e259;
+     font-size: 12px;
+     line-height: 24px;
+     font-weight: bold;
+}
+
+.footerLink {
+     font-size: 12px;
+     line-height: 20px;
+}
+
+.contentTitle {
+	 font-family: Arial, Helvetica, sans-serif;
+     font-size: 18px;
+     font-weight: bold;
+     color: #333333;
+     padding-left: 22px;
+}
+
+.contentMenuBar {
+	width:25%;
+}
+
+.contentMenuItem {
+	font-family: Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     line-height: 25px;
+     color: #007ac9;
+     padding-top: 13px;
+     padding-left: 22px;
+}
+
+.contentMenuItemSelected {
+     color: #333333 !important;
+     font-weight: bold !important;
+}
+
+.contentLink {
+	 font-family: Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     line-height: 25px;
+     color: #007ac9;
+     padding-top: 13px;
+     padding-left: 22px;
+}
+
+#messageDialog{
+	max-width: 700px;
+	min-width: 500px;
+	max-height: 500px;
+}
+
+
+.opCompanySelect{
+  width: 150px !important;
+  min-width: 150px  !important;
+  max-width: 150px !important;
+}
+
+.myViewInfo{
+	margin-left: 5px;
+	margin-right: 5px;
+    vertical-align: middle;
+    padding: 5px 0px 10px 0px;
+    float: left;
+}
+
+span#myView a{
+	color:gray;
+} 
+						

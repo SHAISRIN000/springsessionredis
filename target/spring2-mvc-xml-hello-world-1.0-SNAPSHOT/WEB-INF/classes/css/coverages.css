@@ -1,0 +1,277 @@
+
+.rowHeaderLabelsDiv {   
+    width: 171px !important; 
+    right: 171px !important; 
+    float: left !important;  
+    padding-right: 20px !important;
+    /*
+    margin-top:22px !important;
+    */
+}
+.coverageInformationText {
+    font-weight: bold !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+/*put elements in div within td so field and premAmt stay horizontally
+two span's within a div.
+*/
+.item-row {
+    display: table-row;
+    width: 226px !important;
+    min-width: 226px !important; 
+    max-width: 226px !important;
+  }
+ 
+.field_column { 
+    display: table-cell !important;
+    width: 190px !important;
+    
+  }
+
+.premextra_column {
+    display: table-cell !important;
+    
+  }
+  
+ .redlabel{
+	color: #FF0000;
+}
+  
+/* fix the row height to avoid block spaces */
+tr.fieldRowCov { 
+    height: 31px !important;
+    min-height: 31px !impotant;
+	max-height: 31px !impotant;
+}
+
+  
+td.sectionHeaderCol,
+{
+	vertical-align: middle !important;
+    padding-right: 20px !important; 
+}
+td.covFieldCol{
+	vertical-align: middle !important;
+    width: 231px !important;
+    min-width: 231px !important; 
+    max-width: 231px !important;
+    padding-right: 21px !important;
+}
+/* input text field */
+input.covColInput {
+    text-indent: 5px;
+    text-align: middle;
+    width: 190px !important;
+    min-width: 190px !important; 
+    max-width: 190px !important;
+    height: 21px !important;
+    min-height: 21px !important;
+    max-height: 21px !important;
+    padding: 0 !important;
+    margin: 0  !important;
+    font-size: 11px;
+    line-height: 21px !important;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    *overflow: visible;
+}
+
+/* select dropdown - styles will apply to SelectBox It dropdown wrapper */
+.covColSelect{
+  width: 190px !important;
+  min-width: 190px  !important;
+  max-width: 190px !important;
+  height: 21px !important;
+  min-height: 21px !important;
+  max-height: 21px !important;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 21px !important;
+  color: #333333;
+}
+
+
+.premAmtDisplaySpan {
+	width : 40px;
+    MIN-WIDTH: 39px;
+    MAX-WIDTH: 39px;
+    padding-left: 5px;
+    text-align: right !important;  
+}
+
+#formTop {
+	padding: 5px 0px 10px 20px !important;
+}
+
+/*
+.driverContent {        
+    /*margin : 0px 25px !important;
+     background-color: yellow !important;  
+     border-top : red 1px solid; */
+     /*background-color: green !important; */ 
+     /*padding-top: 0px !important;*/      
+     padding-top: 50px !important;
+}
+*/
+
+.coverageContent {
+	
+	  padding-top: 50px !important;
+}
+
+.scrollBtn {
+    min-width: 12px !important;
+}
+
+.vehiclePageHeader hr {
+    margin: 5px 0px;
+}
+
+.vehicleContent {
+    margin : 0px 25px;
+}
+
+#scrollPos {
+    MARGIN-RIGHT: 10px;
+}
+
+.coveragePageHeader {
+    /*** Make sure the header doesn't scroll. Needed for z-index to work ***/
+    
+    position: fixed;   
+    width : 960px;    
+    margin : -50px 0px 0px 0px;
+
+    /*** Make it float on top of other elements on the page ***/
+    z-index: 100;
+    
+    /*** Make sure its background is opaque ***/
+    /* Fallback for web browsers that doesn't support RGBa */
+    
+    background: rgb(247, 247, 247);
+    /* RGBa with opaque background */
+    background: rgba(247, 247, 247, 1);
+    
+    /* Not sure if these are absolutely necessary. IE 7 seems to work without it but let's be safe */
+    /* For IE 5.5 - 7 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000);
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000)";
+}
+
+.coveragePageHeader hr {
+    margin: 5px 0px;
+}
+
+/*
+.covrgRateButton { 
+    margin-left: 35px !important;    
+}
+*/
+
+#scrollPanel {
+    /*MARGIN-RIGHT: 34px !important;  */
+    margin-left: 422px !important;
+    margin-top: 8px !important;
+}
+
+#scrollPos {   
+    /*MARGIN-RIGHT: 10px !important;*/
+    padding-right: 4px !important;
+}
+
+.scrollBtnImg {
+    width: 20px !important; 
+}
+
+.scrollBtn {    
+    min-width: 12px !important;    
+    cursor:pointer;
+}
+
+.vehicleCoverageHeader {
+	/* same as .vehicleHeader in AICommon.css, EXCEPT width is 200px  AJP */
+    /* created new class to allow 4 column layout and icon as separate image - J.Garrison */
+    width: 198px;
+    height: 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fffeff;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background-color: #666;
+}
+
+.centerCell a {
+    WIDTH: 120px;
+    HEIGHT: 27px;
+    MARGIN: 0 auto;
+    DISPLAY: block;
+}
+
+.centerCell a:link {
+    TEXT-ALIGN: center;
+}
+
+#scrollPos {
+	MARGIN-RIGHT: 10px;
+}
+
+.featureLabel .td {
+    WIDTH: 120px;
+    TEXT-ALIGN: left;
+     
+}
+
+.featureCol .td {
+    WIDTH: 100px;
+    text-align:center; 
+}
+
+.totalLabel{
+    font-weight: bold;
+}
+
+.coverageHeaderSpacing{
+    /*padding-top: 81px;*/
+    padding-top: 46px;
+}
+
+.rowHeaderAndSlidingFrameParentDiv {
+    margin-top: 0px !important;
+    /*background-color: yellow !important;*/    
+}
+
+.rowHeaderLabelsDiv {   
+    width: 171px !important; 
+    right: 171px !important; 
+    float: left !important;  
+    padding-right: 20px !important;
+    /*margin-top:44px !important;*/
+    /*background-color: yellow !important;*/ 
+}
+
+/* Left align all columns to the column header (vehicle info) */
+.fieldRowCov .covFieldCol {
+    padding-left: 0;
+	padding-right: 19px !important;
+}
+
+/*#slidingFrameId {
+    margin-top: -21px;
+}
+
+#rowHeaderTableContainer {
+    margin-top: 0px;
+}
+
+*/

@@ -1,0 +1,56 @@
+.manualView {
+    WIDTH:900px !important;
+    MIN-WIDTH: 900px !important;
+    MAX-WIDTH: 900px !important;
+    margin-left:20px;
+    margin-top: 67px;
+}
+
+
+.manualView tbody tr:nth-child(odd)		{ background-color:#E8E8E8; }
+.manualView tbody tr:nth-child(even) td { background: white}
+
+.manualView td {
+	padding: 4px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: center;
+	font-size: 12px !important;
+	font-style:Arial !important;	
+}
+
+.manualView th {
+	font-weight: bold;
+	background-color: #666;
+	font-size: 12px;
+	word-wrap: break-word !important;
+	line-height: 20px !important;
+	height : 15px !important;
+	text-align : left;
+}
+
+.headerAdjust{
+	font-weight: bold;
+	background-color: rgb(102, 102, 102);
+	color: rgb(255, 255, 255);
+	font-size: 12px;	
+	word-wrap: break-word !important;
+	vertical-align: middle;
+	text-align : left !important;
+	padding-left: 8px;
+}
+
+.noResultsInlineError{
+	padding-left: 15px;
+	text-align: left;
+	font-weight: bold
+}
+
+.reviewPaymentsLabel{
+	text-align: left; 
+	margin-left:20px
+}
+
+.openAdvPolSearch{
+	margin-left: 20px;
+}

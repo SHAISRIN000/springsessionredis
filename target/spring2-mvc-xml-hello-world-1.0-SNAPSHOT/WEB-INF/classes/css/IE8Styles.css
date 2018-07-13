@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document for IE 8 specific styles*/
+
+.aiBtn{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#startGlobalSearch{
+     margin-top: -6px;
+}
+
+#advSearchContent{
+	margin-top: -20px;
+}
+
+/* Quick Links fields */
+li.menuItem > div.expandLink_Fields > div.outerDiv > div.control-group > div.controls > div.input-append > input.linkInput,
+li.menuItem > div.expandLink_Fields > div.outerDiv > input.linkInput{
+    height: 24px !important;
+    min-height: 24px !important;
+    max-height: 24px !important;
+    line-height: 24px !important;
+}
+
+li.menuItem > div.expandLink_Fields > div.outerDiv > div.control-group > div.controls > div.input-append > input.linkDate,
+li.menuItem > div.expandLink_Fields > div.outerDiv > input.linkDate{
+    height: 24px !important;
+    min-height: 24px !important;
+    max-height: 24px !important;
+    line-height: 24px !important;
+}
+
+/* Footer fields */
+div.footerLinks > div.expandLink_Fields > div.outerDiv > div.control-group > div.controls > div.input-append > input.linkInput,
+div.footerLinks > div.expandLink_Fields > div.outerDiv > input.linkInput {
+    height: 26px;
+    min-height: 26px;
+    max-height: 26px;
+    line-height: 26px;
+}
+
+div.footerLinks > div.expandLink_Fields > div.outerDiv > div.control-group > div.controls > div.input-append > input.linkDate,
+div.footerLinks > div.expandLink_Fields > div.outerDiv > input.linkDate {
+   height: 26px;
+   min-height: 26px;
+   max-height: 26px;
+   line-height: 26px;
+}
+
+.popover.top .arrow {
+    border-top-color: #ccc;
+}
+
+.popover.topRight .arrow {
+    border-top-color: #ccc;
+}
+
+.popover.top{
+    margin-top: -7px; /* J. Garrison added */
+}
+
+.popover.bottom .arrow {
+    border-bottom-color: #ccc;
+}
+
+.popover.right .arrow {
+    border-right-color: #ccc;
+}
+
+.popover.left .arrow {
+    border-left-color: #ccc;
+}
+
+hr#myQuotesDivider{
+    margin-left: 2px !important;
+}
+
+hr#quickLinksDivider{
+    margin-left: 0px !important;
+    width: 89% !important;
+}
+
+#completeApplicationAlert {
+    width: 350px;
+}

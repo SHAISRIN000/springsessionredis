@@ -1,0 +1,94 @@
+.applicationDeleteLink {
+    
+    TEXT-ALIGN:right;
+    FLOAT:right;
+    cursor:pointer;
+}
+
+.fieldLabel{
+	height: 21px;
+}
+
+.fieldCol{
+    height: 21px;
+}
+
+#formBottom{
+    background-image: url('../images/AI2FormBottom.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 16px; 
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+}
+ 
+.clsOtherCarrierRow
+ {
+    /* setting hidden rows height*/
+    height: 28px !important;
+}
+
+/* date field */
+input.colDateField {
+    text-indent: 5px;
+    width: 208px !important;
+    min-width: 208px !important; 
+    max-width: 208px !important;
+    height: 21px !important;
+    min-height: 21px !important;
+    max-height: 21px !important;
+    padding: 0 !important;
+    margin: 0  !important;
+    font-size: 11px;
+    line-height: 21px;
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    *overflow: visible;
+    vertical-align:middle !important; 
+
+}
+
+/*this syles will override actual chosen container styles from chosen.css*/
+
+.chosen-container .chosen-results {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0px;
+    padding: 0px;
+    max-height: 65px;
+    line-height: 8px; 
+}
+
+.chosen-container .chosen-results li.active-result {
+    display: list-item;
+    cursor: pointer;
+    line-height: 8px;
+}
+
+/* Fixes for reducing gap between tab bottom and Top Container & Section Title Top Margin */
+.globalHeader {
+    height: 165px;
+    background-position: 0 -30px;
+}
+
+#formTop {
+    height: 20px;
+}
+
+#mainContent {
+    margin-top: 118px;
+}
+
+/* AARP Svc call msg */
+.aarpSuccessMsg{
+	color: green;
+	font-size: 11px !important;
+}
+
+.aarpErrMsg{
+	color: red;
+	font-size: 11px !important;
+}

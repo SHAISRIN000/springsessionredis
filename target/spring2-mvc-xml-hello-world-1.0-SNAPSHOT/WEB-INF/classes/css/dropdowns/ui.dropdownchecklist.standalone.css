@@ -1,0 +1,223 @@
+/** Minimal stand-alone css for dropdownchecklist support
+    We highly recommend using JQuery ThemeRoller instead  
+*/
+.ui-dropdownchecklist {
+  border: 1px solid #d9d9d9;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #fff;
+  height: 21px; 
+  width: 230px;  
+  
+}
+
+.ui-dropdownchecklist-indent {
+  padding-left: 7px;
+}
+
+.ui-dropdownchecklist-selector{
+  padding: 1px 1px 1px 1px;
+  margin-top: 2px;
+  background-color: #fff;
+  cursor: pointer;
+} 
+
+.ui-dropdownchecklist-selector-wrapper {
+  height: 21px; 
+  min-height: 21px;  
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #fff;
+  outline-style: none;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.ui-dropdownchecklist-selector:hover,
+.ui-dropdownchecklist-selector-wrapper:hover,
+.ui-dropdownchecklist-selector:focus,
+.ui-dropdownchecklist-selector-wrapper:focus
+{
+  /* J Garrison added */
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); 
+	background-color: #fff;
+}
+
+.ui-dropdownchecklist-selector-hover {
+	/* J Garrison added */
+  border: 1px solid; border-color: rgba(82, 168, 236, 0.8); 
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); 
+	background-color: #fff;
+}
+
+ .ui-dropdownchecklist-text {
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ 
+ /* font-size: 12px;
+  line-height: 30px;*/
+  
+  font-size: 11px;
+  line-height: 21px;
+  
+  color: #333333;
+  overflow:hidden;
+  white-space:nowrap;
+  font-weight: normal;
+  display: inline;
+  margin-left: 5px;
+   /* Prevents text selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.ui-dropdownchecklist-headertext {
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
+  /*font-size: 12px;
+  line-height: 14px;*/
+  font-size: 11px;
+  line-height: 21px;
+  
+  /*padding-top: 4px;*/
+   padding-top: 0px;
+  
+  color: #333333;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+  font-weight: normal;
+  display: inline;
+  margin-left: 5px;
+  *margin-left: 2px;
+ 
+  /*width: 160px;
+  max-width: 160px;*/
+  width: 193px;
+  max-width: 193px;
+  
+  
+  /* Prevents text selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.ui-dropdownchecklist-group {
+  padding: 1px 2px 2px 2px;
+}
+
+.ui-dropdownchecklist-dropcontainer {
+  width: auto;
+  height: auto;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
+  /*min-width: 197px; /* This is what will need to be dynamically adjusted */
+  min-width: 230px;
+ 
+  max-height: 180px; /* A vertical scrollbar appears if your select box options taller than this */
+  outline-style: none;
+  vertical-align: middle;
+}
+
+.ui-dropdownchecklist-item {
+  background-color: #fff;
+  text-indent: 5px;
+  border: none;
+}
+
+.ui-dropdownchecklist-hover {
+   background-color: #007ac9;
+   /*background-color: none;
+   border: none;*/
+}
+
+.ui-dropdownchecklist-item:hover{
+  background-color: #007ac9;
+}
+
+.ui-dropdownchecklist-hover> .ui-dropdownchecklist-text{
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: bold;  
+    background-position: 0 -10px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+
+
+
+/* disabled state */
+.ui-dropdownchecklist-disabled label {
+	background-color: #eee !important;
+}
+
+.ui-dropdownchecklist-selector.ui-dropdownchecklist-disabled,
+.ui-dropdownchecklist-default.ui-dropdownchecklist-disabled{
+   background-color: #eee !important
+}
+
+.ui-dropdownchecklist-disabled .ui-dropdownchecklist-headertext{
+	background-color: #eee !important;
+	color: #999999 !important;
+}
+
+/* states and images - not needed as we will have custom background image for icon */
+.uiIcon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+.uiIcon { width: 16px; height: 16px; background-image: url(images/ui-icons_469bdd_256x240.png); }
+.uiIcon  {background-image: url(images/ui-icons_469bdd_256x240.png); }
+.uiIcon {background-image: url(images/ui-icons_d8e7f3_256x240.png); }
+.uiIcon  { background-image: url(images/ui-icons_6da8d5_256x240.png); }
+.uiIcon  {background-image: url(images/ui-icons_217bc0_256x240.png); }
+.uiIcon  {background-image: url(images/ui-icons_f9bd01_256x240.png); }
+.uiIcon {background-image: url(images/ui-icons_2e83ff_256x240.png); }
+.uiIcon  {background-image: url(images/ui-icons_cd0a0a_256x240.png); }
+
+
+.iconOpen{
+  width: 28px;
+  float: right;
+  background: url("../../images/arrowLine.png") no-repeat scroll center center transparent;
+  padding-left: 2px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  /*margin-top: 8px;*/
+  margin-top: 4px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.iconClose{
+  width: 28px;
+  float: right;
+  background: url("../../images/arrowLine.png") no-repeat scroll center center transparent;
+  padding-left: 2px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+   /*margin-top: 8px;*/
+  margin-top: 4px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+

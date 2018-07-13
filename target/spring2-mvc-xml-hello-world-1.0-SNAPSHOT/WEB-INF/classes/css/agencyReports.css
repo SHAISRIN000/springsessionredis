@@ -1,0 +1,545 @@
+.periodSelect{
+  width: 150px !important;
+  min-width: 150px  !important;
+  max-width: 150px !important;
+  height: 21px !important;
+  min-height: 21px !important;
+  max-height: 21px !important;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 21px !important;
+  color: #333333;
+}
+
+.ui-dropdownchecklist {
+    border: 1px solid #d9d9d9;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #fff;
+    height: 21px;
+    width: 180px;
+}
+
+.dropDownMultiSelect{
+    width: 180px;
+}
+
+.ui-dropdownchecklist-headertext {
+	margin-left: 10px
+}
+
+.ui-dropdownchecklist-dropcontainer {
+    min-width: 180px;
+}
+
+.ui-dropdownchecklist-selector{
+	padding: 1px 1px 1px 1px;
+    margin-top: 0px;
+    width : 180px;
+    max-width : 180px;
+}
+
+.ui-dropdownchecklist-default{
+	width : 180px;
+    max-width : 180px;
+}
+
+.periodBox{
+    width: 992px;
+    background-color: #efefef;
+    border: 1px solid #ccc;   
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-left: -21px;
+    margin-right: -10px;
+    margin-top: -61px;
+    padding: 0px;
+    position: fixed;
+    font-size: 11px !important;
+    color: #666666;
+    /* font-weight: bold; */
+    line-height: 15px;
+    z-index: 100;
+    background-color:rgba(255, 255, 255, 1);
+    height:62px
+}
+
+.dashBoardBox{
+    width: 992px;
+    background-color: #efefef;
+    border: 1px solid #ccc;   
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-left: -21px;
+    margin-right: -10px;
+    margin-top: -61px;
+    padding: 0px;
+    position: fixed;
+    font-size: 11px !important;
+    color: #666666;
+    line-height: 15px;
+    z-index: 100;
+    background-color:rgba(255, 255, 255, 1);
+    height:62px
+}
+
+.welcomeHeader{
+	 font-size: 20px;
+	 color: #1E1E1E;	
+	 text-align: left;
+	 line-height: 36px;
+	 font-family: 'ArialMT', 'Arial';
+	 font-style: normal;
+	 font-weight: 400;
+}
+
+.dateHeader{
+	 font-size: 14px;
+	 color: #1E1E1E;	
+	 text-align: right;
+	 line-height: 36px;
+	 font-family: 'ArialMT', 'Arial';
+	 font-weight: 400;
+	 font-style: normal;
+	 
+}
+
+.dashboardLinks{
+	font-family: Arial-BoldMT, "Arial Bold", Arial;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: rgb(0, 122, 201);
+    text-align: left;
+    line-height: 16px;
+    cursor:pointer;
+}
+
+.commissionLinks{
+	font-family: Arial-BoldMT, "Arial Bold", Arial;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: rgb(0, 122, 201);
+    text-align: left;
+    line-height: 16px;
+    cursor:pointer;
+}
+
+.profitSharingLink{
+	font-family: Arial-BoldMT, "Arial Bold", Arial;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+    line-height: 16px;
+}
+
+.dashboardLinks a:link,.dashboardLinks a:visited{
+	text-decoration: none;
+}
+
+.dashboardLinks a:hover, .dashboardLinks a:active{
+	text-decoration: underline;
+}
+
+.table th, .table td {
+	font-weight: normal;
+    padding: 8px;
+    line-height: 13px;
+    vertical-align: top;
+    border-top: 1px solid #d3d3d3;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 12px;
+    border-spacing:1px 0;   
+     
+}
+
+.table td {
+    font-size: 12px;
+    text-align: center;
+}
+
+.table {
+	border: 0px;
+}
+
+/* Custom Tables */
+.table th {
+    background-color: #ffffff;
+    color: #007ac9;
+    font-size: 18px;
+    text-align: center;
+    padding:10px;
+    border-collapse: collapse;    
+   
+}
+
+
+.tableHeader th{
+	font-weight: normal;
+    padding: 8px;
+    line-height: 13px;
+    vertical-align: top;
+    border-top: 1px solid rgba(215, 215, 215, 1);
+    border-bottom: 0px;
+    border-left: 1px solid rgba(215, 215, 215, 1);
+    border-right: 1px solid rgba(215, 215, 215, 1);
+    font-size: 12px;
+    border-spacing:1px 0;   
+     
+}
+
+/* Custom Tables */
+.tableHeader th {    
+    color: #007ac9;
+    font-size: 18px;
+    text-align: center;
+    padding:10px;
+    border-collapse: collapse;    
+   
+}
+
+.tableHeader {
+	background-color: #ffffff;
+    border-color:rgba(215, 215, 215, 1);
+}
+
+.outerDiv {
+	border-collapse : collapse;
+    border-radius: 10px;
+    border-style: solid; /* hide standard table (collapsed) border */
+    border-width:thin;
+    padding: 20px;
+    background-color: #fff;
+    border-color: rgba(215, 215, 215, 1);
+}
+
+
+/* Quick Links */
+.periodArrow, .lobArrow, .planArrow{
+    width: 0; 
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 10px solid #0088cc;
+    display: inline-block; 
+    *display: inline;
+    margin-left: 0;
+    margin-top: 0;
+    text-decoration:none;
+    
+}
+
+.periodDashboardArrow{
+    width: 0; 
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 8px solid #0088cc;
+    display: inline-block; 
+    *display: inline;
+    margin-left: 0;
+    margin-top: 0;
+    text-decoration:none;
+    
+}
+
+li#periodli, li#lobli, li#planli{
+    float: left;
+    display: inline-block;
+    *display: inline;
+}
+
+li#period, li#lob, li#plan{
+	min-width: 58px;
+	margin-left: 4px;
+	margin-right: 15px;
+}
+
+.disclaimerText{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333; 
+}
+
+.bannerTable th, .bannerTable td {
+	font-weight: normal;
+    line-height: 13px;
+    vertical-align: top;
+    font-size: 12px;     
+}
+
+.bannerTable td {
+    font-size: 12px;
+    text-align: left;
+}
+
+.bannerDashboardTable th, .bannerDashboardTable td {
+	font-weight: normal;
+    line-height: 19px;
+    vertical-align: top;
+    font-size: 12px;     
+    border-width:thin;
+    border-color: rgba(215, 215, 215, 1);
+}
+
+.bannerDashboardTable td {
+    font-size: 12px;
+    text-align: left;
+    padding: 5px;
+    vertical-align:middle;   
+}
+
+.expReportLoadingTable td{
+	 text-align: center;
+}
+
+.expRptBannerDiv, .psRptBannerDiv, .expReportLoadingDiv, .psReportLoadingDiv {
+	border-collapse : collapse;
+    border-radius: 10px;
+    border-style: solid; /* hide standard table (collapsed) border */
+    border-width:thin;  
+    padding:15px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border-color: rgba(215, 215, 215, 1);
+}
+
+.commRptBannerDiv {
+	border-collapse : collapse;
+    border-radius: 5px;
+    border-style: solid; /* hide standard table (collapsed) border */
+    border-width:thin;  
+    padding:15px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border-color: rgba(215, 215, 215, 1);
+}
+
+.psDetailsRptDiv {
+	border-collapse : collapse;
+    border-radius: 10px;
+    border-style: solid; /* hide standard table (collapsed) border */
+    border-width:thin;  
+    padding:5px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    border-color: rgba(215, 215, 215, 1);
+}
+
+
+.psHeaderText {
+    width: 905px;
+    font-family: 'ArialMT', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: rgba(153, 153, 153, 0.576470588235294);
+}
+
+
+.pstable th, .pstable td {
+	font-weight: normal;
+    padding: 5px;
+    line-height: 5px;
+    vertical-align: top;
+    border: 1px solid #d3d3d3;
+    font-size: 12px;  
+     
+}
+
+.pstable td {
+    font-size: 12px;
+    text-align: left;    
+}
+
+
+
+/* Custom pstables */
+.pstable th {
+    background-color: #ffffff;
+    color: #007ac9;
+    font-size: 18px;
+    text-align: center;
+    padding:10px;
+    border-collapse: collapse;    
+   
+}
+
+.planDashboardText {
+    font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 16px; 
+}
+
+.planDashboardState {
+    font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+.quickLinkText {
+    font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #333333; 
+    line-height: 16px;
+}
+
+.planPSAmt{
+    font-size: 34px;
+    color: rgba(153, 153, 153, 0.576470588235294);
+    text-align: left;
+    line-height: 16px;
+    font-family: 'ArialMT', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: normal;
+}
+
+.planYrEndAmt{
+	font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-style: normal;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.planPointer{
+	cursor:pointer;
+}
+
+/* Plan Details Styles */
+
+.detailPlanAmt{
+	font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-style: normal;
+    font-size: 34px;
+    color: #FFFFFF;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.detailPlanFactorText{
+	font-family: 'Arial-MT', 'Arial';
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center; 
+    vertical-align: bottom;
+    
+}
+
+td.detailPlanText, span.detailPlanText{
+	padding-top: 20px;
+	font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: #007AC9;
+    text-align: center;
+    line-height: 20px;
+    cursor:pointer;
+}
+
+td.detailPlanTextGrowthRate{
+	padding-top: 10px;
+	font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: #007AC9;
+    text-align: center;
+    line-height: 20px;
+    cursor:pointer;
+}
+
+td.detailsPlanAmtCell{
+	text-align: center; 
+	vertical-align: middle;
+}
+
+tr.detailsPlanAmtRow{
+	height : 70px;
+	background-color: rgba(202, 202, 202, 1);
+}
+
+tr.detailsPlanAmtRowGrowthRate{
+	height : 100px;
+	background-color: rgba(202, 202, 202, 1);
+}
+
+table.detailsPlanTable{
+	width: 100%; 
+	border-spacing: 0px; 
+	padding: 0px;
+}
+
+td.detailsPlanOuterCell{
+	width: 200px;
+	border: 0px; 
+	margin: 0px;
+}
+
+span.planDownloadText{
+	vertical-align: top;
+	font-weight:normal; 
+	width:400px; 
+	text-align:right; 
+	padding-left: 200px; 
+	font-size: 12px;
+}
+
+/*Flip Model styles  */
+
+ .flip {
+    height: 199px;
+    width: 300px; 
+     margin: 0 auto; 
+}
+.flip img {
+    width: 500px;
+    height: auto;
+}
+.flip .back {
+    background: #2184cd;
+    color: #fff;
+    text-align: center;
+}
+
+span.planModalDescHeaderText{
+	position: absolute;
+    left: 20px;
+    top: 24px;
+    height: 21px;
+    font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: left;
+}
+
+td.planModalDescBodyText{
+	vertical-align:top; 
+	text-aligh: left;
+	line-height: 20px;
+	padding-top: 20px; 
+	padding-left:20px;
+	padding-right:20px;
+	color: #666666; 
+	font-size: 12px; 
+	line-height: 20px;
+}
